@@ -1,0 +1,1064 @@
+{
+  "mode": "baseline",
+  "patient": {
+    "symptoms": "জ্বর, গায়ে ব্যথা এবং জয়েন্টে ব্যথা। Fever, body aches and joint pain.",
+    "age_years": null,
+    "sex": null,
+    "illness_day": null,
+    "pregnant": null,
+    "elderly": null,
+    "allergies": null,
+    "current_medicines": null,
+    "history": "No further information supplied.",
+    "dengue_excluded": null
+  },
+  "retrieved": [
+    {
+      "card": {
+        "card_id": "DEN-DX-01",
+        "disease": "dengue",
+        "category": "probable_diagnosis",
+        "retrieval_text": "জ্বর মাথাব্যথা চোখের পেছনে ব্যথা গায়ে ব্যথা র‍্যাশ fever headache rash joint pain dengue Consider dengue in acute febrile illness with compatible features such as severe headache, retro-orbital pain, myalgia, arthralgia, rash, nausea or vomiting. Symptoms alone support suspected dengue, not laboratory confirmation. Show the supporting findings and consider chikungunya among alternatives.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Consider dengue in acute febrile illness with compatible features such as severe headache, retro-orbital pain, myalgia, arthralgia, rash, nausea or vomiting. Symptoms alone support suspected dengue, not laboratory confirmation. Show the supporting findings and consider chikungunya among alternatives.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_27",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 27,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 27  \n3.1.2.2 Classical Dengue fever (DF) \nA proportion of patients infected with dengue virus develop classical dengue fever characterized by \nhigh fever, severe headache, retro -orbital pain, myalgia, arthralgia and rashes. Leucopenia and \nthrombocytopenia are usually observed. Although DF is usually benign, it could be an incapacitating \ndisease due to severe headache and musculo-skeletal pains (break-bone fever). Occasionally, unusual \nhaemorrhage such as gastrointestinal bleeding, hypermenorrhea and massive epistaxis may occur. \n \nFever \n• Sudden onset, high grade, continued. \n• The body temperature is usually between 39 °C and 40 °C (102° F to 104° F). \n• The fever may be biphasic, lasting 2–7 days in the majority of cases. \n \nRash \nfirst 2 to 3 days - Diffuse flushing or blanching erythema may be seen on the face, neck and chest \n \nThird and fourth day - a conspicuous rash that may be maculo-papular or rubelliform. \n \nAfebrile period or defervescence - Some patients have a confluent erythematous or petechial rash \nwith small areas of normal skin, described as “isles of white in the sea of red” may appear over the \ndorsum of the feet, on the legs and on the hands and arms. Skin itching may be observed. \n \nRash in dengue fever: \n \n \nFigure 12: Dengue rash \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_37",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 37,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 37  \n3.2 Differential Diagnosis of Dengue Fever \n \nFever that has similar clinical feature of dengue like fever, rash, body ache, headache are its \ndifferential diagnosis. Clinical presentation of following infections has similarity with dengue fever: \nInfection by \nArboviruses: Chikungunya virus, Zika virus \nOther Viral Infection:  Measles, rubella and other viral exanthems, Epstein -Barr virus (EBV), \nEnteroviruses, Influenza, Hepatitis A, Hanta virus. \nBacterial diseases:  Meningococcemia, Leptospira, Enteric fever, Melioidosis, Rickettsial disease, \nScarlet fever, Sepsis. \nParasitic Disease: Malaria. \nDengue, Chikungunya and Zika \nDengue, chikungunya, and Zika are all mosquito-borne viral diseases that can cause similar symptoms, \nsuch as fever, headaches, muscle and joint pain. \nClinical signs and symptoms and laboatory findings to differentiate dengue, zika and \nchikungunya. \n \n \n \n \nTable 2: Table showing clinical differentiation among dengue, chikungunya and zika. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.2906985665930049
+    },
+    {
+      "card": {
+        "card_id": "CHIK-DX-01",
+        "disease": "chikungunya",
+        "category": "probable_diagnosis",
+        "retrieval_text": "জ্বর জয়েন্টে ব্যথা র‍্যাশ fever joint pain arthralgia rash chikungunya Suspect chikungunya with sudden fever, joint manifestations and rash. Clinical criteria include acute fever >38.5°C and severe arthralgia/arthritis not otherwise explained. Clinical-only cases are possible; clinical plus epidemiological criteria are probable; laboratory criteria support confirmed classification. Dengue remains a differential.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Suspect chikungunya with sudden fever, joint manifestations and rash. Clinical criteria include acute fever >38.5°C and severe arthralgia/arthritis not otherwise explained. Clinical-only cases are possible; clinical plus epidemiological criteria are probable; laboratory criteria support confirmed classification. Dengue remains a differential.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_11",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 11,
+            "evidence_passage": "11 \n \nCase definition \nChikungunya Fever should be suspected when a person develops sudden onset \nof fever, joint manifestations and rash. \nCases are to be categorized as: \na) Possible case: a patient meeting only clinical criteria \nb) Probable case: a patient meeting both the clinical and epidemiological \ncriteria \nc) Confirmed case: a patient meeting the laboratory criteria, irrespective of the \nclinical presentation \n \nCriteria for the Identification of Chikungunya Infection \nClinical criteria \n acute onset of fever >38.5°C \n severe arthralgia/arthritis not explained by other medical conditions \nEpidemiological criteria \n Residing or having visited epidemic areas \n having reported transmission within 15 days prior to the onset of symptoms \nLaboratory Criteria: at least one of the following tests in the acute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific IgM antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of IgG  antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_17",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 17,
+            "evidence_passage": "17 \n \n(6) Malaria: patient can present with high fevers and may also complain of \njoint pains. Periodici ty of fever and alteration of consciousness / seizures \nshould prompt a diagnosis for malaria \n(7) Leptospirosis: Severe myalgia localized to calf muscles with conjunctival \ncongestion/ or subconjunctival  haemorrhage with or without oliguria or \njaundice in a pers on with history of skin contact to contaminated water \nwould suggest Leptospirosis \n \nClinical and laboratory features of chikungunya virus infections \ncompared with dengue virus infections \n \n \n \n \n \n \n \n \n \n \n \n \n \nChikungunya and dengue  \n Difficult to distinguish chikungunya and dengue  based on clinical \nfindings alone  \n Chikungunya and dengue viruses transmitted by the same mosquitoes \nChikungunya Dengue \nFever (>38.5°C)  +++ ++ \nArthralgia  +++ +/- \nArthritis  + - \nHeadache  ++ ++ \nRash  ++ + \nMyalgia  + ++ \nHemorrhage  +/- ++ \nShock  - + \nLymphopenia +++ ++ \nNeutropenia + + \nThrombocytopenia  + +++ \nHemoconcentration - ++ ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.2107099428154665
+    },
+    {
+      "card": {
+        "card_id": "CHIK-ADV-01",
+        "disease": "chikungunya",
+        "category": "advice",
+        "retrieval_text": "fever joint pain self care rest cold compress chikungunya Rest and avoid exertion during acute illness; cold compresses may help joint symptoms, while heat may worsen acute joint pain. Mild exercise and physiotherapy are for recovery. Maintain appropriate fluids. Avoid self-medication with aspirin or NSAIDs.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Rest and avoid exertion during acute illness; cold compresses may help joint symptoms, while heat may worsen acute joint pain. Mild exercise and physiotherapy are for recovery. Maintain appropriate fluids. Avoid self-medication with aspirin or NSAIDs.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.12618416269160415
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-ABX",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea antibiotics pregnant elderly severe dehydration cholera Cholera antibiotic eligibility includes severe dehydration OR pregnancy OR elderly status. Pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan. A hydration-only rule is incorrect. This is an indication for clinician medication planning, not an automatic prescription.",
+        "prerequisites": {
+          "any": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "severe"
+            },
+            {
+              "field": "pregnant",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "field": "elderly",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Cholera antibiotic eligibility includes severe dehydration OR pregnancy OR elderly status. Pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan. A hydration-only rule is incorrect. This is an indication for clinician medication planning, not an automatic prescription.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.11104302381399793
+    },
+    {
+      "card": {
+        "card_id": "DEN-INV-02",
+        "disease": "dengue",
+        "category": "investigations",
+        "retrieval_text": "fever late antibody IgM dengue From illness day 6 onward, CBC and dengue antibody testing support diagnosis. Interpret antibodies in context; a positive antibody result is not automatically equivalent to the confirmatory criteria listed in the guideline.",
+        "prerequisites": {
+          "field": "illness_day",
+          "op": "ge",
+          "value": 6
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "illness_day"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "From illness day 6 onward, CBC and dengue antibody testing support diagnosis. Interpret antibodies in context; a positive antibody result is not automatically equivalent to the confirmatory criteria listed in the guideline.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_39",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 39,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 39  \n4.1.1.2 Dengue antigen and antibody tests: \nDetection of antigen: dengue NS1 antigen (non-structural protein 1): \n• The Dengue NS1 antigen usually positive on first day of illness. \n• This antigen test may become negative from 4-5 days of illness. \n \n \n \n \n \n \n \n \nDengue IgM /IgG antibody test (MAC ELISA or enzyme-linked immuno-sorbent assay or Rapid \nImmnuno Chromatomatic Test): \n \n• Anti-dengue IgM can be detected after 5 days of the onset of fever and reaches highest level \nafter 7 days of fever. \n• It can be detected up to 1-3 months after dengue fever. \n• In primary dengue infection - anti-dengue IgM will be detected earlier than IgG which (IgG) \nwill appear on the 9th or 10th day of illness. Level of this IgG may persist at low levels for life \nlong, indicating past dengue infection. \n• In secondary dengue infection- higher levels of anti-dengue IgGand lower levels of anti- \ndengue IgM are detected at 2nd week. The anti-dengue IgG levels detected lifelong. \n \n4.1.1.3 Nucleic Acid Detection: \n• Dengue diagnosis is confirmed by detecting DEN viral RNA using  reverse transcriptase \npolymerase chain reaction  (RT-PCR; This test is usually positive within 5 days of onset of \nsymptoms. It can also be detected by traditional PCR.) \n \n4.1.1.4 Dengue Virus Isolation: \n• This test is usually done for research purpose and are not readily used for routine diagnostic \ntest. \n• Dengue virus isolation in cell culture (Vero, C6/36 cell lines) done from serum, plasma and \nleucocytes is the most definitive test for dengue infection, which can be usually \naccomplished in majority of cases if the sample  is taken in the first five days of onset of \nsymptoms. \n• Isolation of dengue virus also from CSF or autopsy samples. \n• Detection of dengue virus or antigen in tissue, serum or cerebrospinal fluid by \nimmunohistochemistry, immunofluorescence \n• Detection of dengue virus genomic sequences by reverse transcription - polymerase chain \nreaction. \n  \nNote: The sensitivity, specificity, positive, and negative predictive value of rapid dengue NS1 \nantigen test were 81.5%, 66.7%, 78.2%, and 71.1%, respectively whereas that of NS1 ELISA were \n89.9%, 100%, 100%, and 94%, respectively. Concordance of Rapid NS1 and NS1 ELISA with PCR was \n75.5% and 94%. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.11018302338266651
+    },
+    {
+      "card": {
+        "card_id": "CHIK-ADV-02",
+        "disease": "chikungunya",
+        "category": "advice",
+        "retrieval_text": "fever joint pain admission pregnancy persistent pain follow up chikungunya Admission criteria include haemodynamic instability, oliguria, altered sensorium, bleeding, persistent disabling joint pain after three days of symptomatic treatment, age over 60, infancy, pregnancy and high-risk conditions. Review rather than continue an unchanged home plan when these arise.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Admission criteria include haemodynamic instability, oliguria, altered sensorium, bleeding, persistent disabling joint pain after three days of symptomatic treatment, age over 60, infancy, pregnancy and high-risk conditions. Review rather than continue an unchanged home plan when these arise.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.1079469117449551
+    },
+    {
+      "card": {
+        "card_id": "DEN-INV-03",
+        "disease": "dengue",
+        "category": "investigations",
+        "retrieval_text": "fever assess missing information dengue Establish illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, comorbidities and high-risk/social circumstances. Examine mental status, hydration and haemodynamics before selecting home management.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Establish illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, comorbidities and high-risk/social circumstances. Examine mental status, hydration and haemodynamics before selecting home management.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_46",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 46,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 46  \nPhysical examination: \n• Mental status \n• Hydration status \n• Haemodynamic status \n• Tachypnoea/ acidotic breathing/ pleural effusion \n• Abdominal tenderness/ hepatomegaly/ ascites \n• Bleeding manifestation \n \nInvestigation: \n• CBC and Hct \n• NS-1 \n• SGPT/SGOT \n• CRP (level 4) \nBesides checking clinical and lab parameter of dengue, proper history to be taken on comorbid \ncondition, high risk for severe disease and adverse social condition of the patients. \n \nPatients at high risk for more severe disease and its complications may need admission \neven without the above criteria. \n Pregnant women \n Elderly \n Obesity \n Patients on anticoagulants \n \nPatients with comorbid conditions: \n Diabetes mellitus \n Hypertension \n Chronic renal failure \n Established liver disease \n Ischemic heart disease \n Solid organ/bone marrow transplant \n Active malignancies \n Hemolytic diseases and other haemoglobinopathies \n Peptic ulcer disease \n Patients on steroid or NSAID treatment \n Patients on anticoagulants \n \nPatients with adverse social circumstances \n Age <1 year or >65 years \n Living alone or has poor access to healthcare facilities \n Lack of transportation \n Unstable housing \n Extreme poverty \nAll patients should be assessed in a stepwise manner to reach at the diagnosis, determine the severity \nand place of management. \nAt the end of evaluation, attending physician should be able to assess the patient on following \npoints. \n Could this patient have dengue? \n Are there any warning sign? \n Is the patient having plasma leakage? \n Is the patient in shock? \n What is the haemodynamic and hydration status of the patient? \n Are there any co-morbidities or high-risk conditions or adverse social condition? \n Is hospitalization required immediately/early? ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.09826093597151725
+    },
+    {
+      "card": {
+        "card_id": "CHIK-INV-02",
+        "disease": "chikungunya",
+        "category": "investigations",
+        "retrieval_text": "fever joint pain CBC CRP dengue differential chikungunya Routine investigations in this source include CBC, ESR, CRP and SGPT. Assess for dengue and relevant coinfections; symptoms alone may not distinguish dengue from chikungunya.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Routine investigations in this source include CBC, ESR, CRP and SGPT. Assess for dengue and relevant coinfections; symptoms alone may not distinguish dengue from chikungunya.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_17",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 17,
+            "evidence_passage": "17 \n \n(6) Malaria: patient can present with high fevers and may also complain of \njoint pains. Periodici ty of fever and alteration of consciousness / seizures \nshould prompt a diagnosis for malaria \n(7) Leptospirosis: Severe myalgia localized to calf muscles with conjunctival \ncongestion/ or subconjunctival  haemorrhage with or without oliguria or \njaundice in a pers on with history of skin contact to contaminated water \nwould suggest Leptospirosis \n \nClinical and laboratory features of chikungunya virus infections \ncompared with dengue virus infections \n \n \n \n \n \n \n \n \n \n \n \n \n \nChikungunya and dengue  \n Difficult to distinguish chikungunya and dengue  based on clinical \nfindings alone  \n Chikungunya and dengue viruses transmitted by the same mosquitoes \nChikungunya Dengue \nFever (>38.5°C)  +++ ++ \nArthralgia  +++ +/- \nArthritis  + - \nHeadache  ++ ++ \nRash  ++ + \nMyalgia  + ++ \nHemorrhage  +/- ++ \nShock  - + \nLymphopenia +++ ++ \nNeutropenia + + \nThrombocytopenia  + +++ \nHemoconcentration - ++ ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_21",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 21,
+            "evidence_passage": "21 \n \nSpecial Situation \nEffect on pregnancy  \nChikungunya fever appears to have a direct impact on pregnancy  with rare \nreports of spontaneous abortions and mother -to-child transmission in perinatal \nperiod.  \n \nEffect on neonates  \nMothers afflicted with C hikungunya fever in the perinatal period (−4 days to \n+1 days before/after delivery) can transmit Chikungunya fever to neonates by \nvertical transmission. Caesarean section does not appear to prevent \ntransmission. Neonatal CHIK fever is associated with fever, po or feeding, \npain, distal edema,  various skin manifestatio ns, seizures, meningo -\nencephalitis, and echocardiographic abnormalities in the newborn. No infants \nare found to be infected with chikungunya virus through breast feeding. \nMothers are encouraged to breast feed their infants. \n \nLaboratory Diagnosis \nPreferred Specimen:  \n1) Blood or Serum \n2) CSF (if neurological features present) \n \nRoutine Laboratory Investigations \n CBC \no Leucopenia (Decreased WBC) \no Thrombocytopenia: rare \no ESR: Usually Elevated \n C-Reactive Protein: Increased during the Acute Phase and may remain \nelevated for a week ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_22",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 22,
+            "evidence_passage": "22 \n \n SGPT: Elevated \n \nSpecific Laboratory Investigations : at least one of the following tests in the \nacute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific Ig M antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of  Ig G antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \nN.B.:  \n1. Diagnostic validity of currently available ICT kit for the  detection of \nIgM and IgG for Chikungunya virus is very poor. \n2. RT-PCR for Chikungunya is performed only at IEDCR. \n \nPublic Health Measures  \n \nPatient when infected can spread the infection by spreading the infection \nthrough mosquitoes. It is important to b reak this transmission by minimizing \nthe vector density by community participation and taking appropriate control \nmeasures in the hospital setting by following measures.  \n \n Minimizing transmission of infection:  This can be done in the \nfollowing ways:  \no  Risk communication to the household members \no  Minimize the vector population  \no  Minimize the vector -patient contact (Aedes mosquitoes bite \nduring day time, mostly in  the morning and late afternoon)  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.0961225579366711
+    },
+    {
+      "card": {
+        "card_id": "CHIK-MED-01",
+        "disease": "chikungunya",
+        "category": "medication_planning",
+        "retrieval_text": "fever joint pain paracetamol dose chikungunya For an adult during fever with no pre-existing liver or kidney disease, the 2017 source lists paracetamol tablets up to 1000 mg four times daily. This is not the dengue policy: if dengue remains a possibility, do not automatically apply this higher maximum; use the more restrictive dengue guidance while dengue is not ruled out. Duration is not explicitly supplied.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 18
+            },
+            {
+              "field": "liver_disease",
+              "op": "eq",
+              "value": false
+            },
+            {
+              "field": "kidney_disease",
+              "op": "eq",
+              "value": false
+            },
+            {
+              "field": "dengue_excluded",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "age_years",
+          "liver_disease",
+          "kidney_disease",
+          "dengue_excluded",
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For an adult during fever with no pre-existing liver or kidney disease, the 2017 source lists paracetamol tablets up to 1000 mg four times daily. This is not the dengue policy: if dengue remains a possibility, do not automatically apply this higher maximum; use the more restrictive dengue guidance while dengue is not ruled out. Duration is not explicitly supplied.",
+          "medication": {
+            "name": "Paracetamol tablets",
+            "dose": "Up to 1000 mg",
+            "route": "oral (tablet)",
+            "frequency": "Up to four times daily",
+            "duration": null,
+            "instructions": "Only with no pre-existing liver/kidney disease; do not transfer this maximum to suspected dengue."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.09102118521800921
+    },
+    {
+      "card": {
+        "card_id": "HTN-INV-01",
+        "disease": "hypertension",
+        "category": "investigations",
+        "retrieval_text": "high BP history examination confirmation hypertension Assess BP measurement history, current/past antihypertensives, adherence, side effects, cardiovascular risks, comorbidities and organ-damage symptoms. Examine and compare arm BPs. Investigations can begin while diagnosis is being confirmed.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Assess BP measurement history, current/past antihypertensives, adherence, side effects, cardiovascular risks, comorbidities and organ-damage symptoms. Examine and compare arm BPs. Investigations can begin while diagnosis is being confirmed.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "hypertension_pdf_46",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 46,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n15 \n \nChapter -4 \n4. Diagnosis and assessment of pa�ents with hypertension \n \n4.1 Diagnosis  \n \nThe diagnosis of hypertension should be based on mul �ple blood pressure measurements, \ntaken on separate occasions over a period. BP can be highly variable; th us, the diagnosis of \nhypertension should not be based on a single set of BP readings at a si ngle oﬃce visit. In \ngeneral, the diagnosis of hypertension should be based on at least th ree blood pressure \nmeasurements per visit and at least two to three visits at 14-wee k intervals (depending on \nthe BP level) to conﬁrm the diagnosis of hypertension9. \n \nThe diagnosis might be made on a single visit, if BP is ≥160/100 mmHg or there is \naccompanying evidence of hypertension mediated organ damage (HMOD) (e.g., hypertensive \nre�nopathy with exudates and hemorrhages, or LVH, or vascular or renal damage) 10. When \nthe ini�al SBP is between 140 and 159 mmHg, or the DBP is between 90 and 99 mmHg, repeat \nmeasurements should be performed on three separate occasions w ithin a period of 1 to 4 \nweeks to determine whether a diagnosis of hypertension is valid. Al l measurements should \nbe taken in the same arm.  If possible and available, the diagnosis of hypertension should be \nconﬁrmed by out-of-oﬃce BP measurement (i.e., HBPM and/or ABPM)9. \n \nIn the ini�al evalua�on, measurement of blood pressure should be performed in both arms. \nIf the diﬀerence in readings between arms is more than 10 mmHg, repeat the measurements \nat 1-2 mins interval. If the diﬀerence in readings between arms remains more than 10 mmHg \non the second measurement, measure subsequent blood pressures in the arm with the higher \nreading and it should be noted. If the diﬀerence is >20 mmHg, consider further inves�ga�on9. \nIf hypertension is not diagnosed, measure the person's clinic blood pressure at least every 3 \nyears subsequently, and consider measuring it more frequently if the person's clinic blood \npressure is close to 140/90 mmHg (Table 3). \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_48",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 48,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n17 \n \n4.2 Clinical evalua�on and assessment of hypertension \n4.2.1 Clinical evalua�on: \nThe goals of the ini�al evalua�on of the hypertensive pa�ent are to  \n1. Establish the diagnosis and grade of hypertension.  \n2. Screening for poten�al secondary causes of hypertension.  \n3. Iden�fy factors that poten�ally contribute to development of hypertension (lifestyle, \nconcomitant medica�ons, or family history).  \n4. Iden�fy concomitant CV risk factors (including lifestyle and family history) (Table 4) \n5. Iden�fy concomitant diseases and establish whether there is evidence of HMOD or \nexis�ng cardiovascular, cerebrovascular, or renal disease. (Table 5)  \nThese goals are usually accomplished by a thorough medical history, physical examina�on, \nand simple laboratory inves�ga�ons. While wai�ng for conﬁrma�on of a diagnosis of \nhypertension, carry out some rou�ne inves�ga�ons for assessment of HMOD. If \nhypertension is not diagnosed but there is evidence of HMOD, consider carrying out \ninves�ga�ons for alterna�ve causes of HMOD. \n \nHistory \nMost pa�ents with hypertension are asymptoma�c, the high blood pressure usually having \nbeen noted during an incidental clinical examina �on. A propor �on of pa �ents will present \nwith a major complica�on of hypertension such as stroke or myocardial infarc�on, but only a \nsmall number will present with symptoms directly a �ributable to hypertension such as \nbreathlessness or headache. That is why hypertension is called a Silent killer. The key issues \nthat need to be addressed in the history include:\n  \nRisk factors assessment: \n* Family and personal history of hypertension, CVD, stroke, or renal disease.  \n* Family and personal history of associated risk factors (e.g., familial \nhypercholesterolaemia) \n* Dietary history and salt intake \n* Smoking history \n* Alcohol consump�on \n* History of physical exercise/sedentary lifestyle \n* History of erec�le dysfunc�on ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_49",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 49,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n18 \n \n Sleep history, snoring, sleep apnoea (informa�on also from partner) \n Previous hypertension in pregnancy/pre-eclampsia \n History of oral contracep�ve use. \nHistory of symptoms of HMOD, CVD, stroke, and renal disease \n For Brain and eyes:  headache, ver�go, syncope, impaired vision, TIA, sensory or motor \ndeﬁcit, stroke, caro �d revasculariza �on, cogni �ve impairment, demen �a (in the \nelderly). \n Heart: chest pain, shortness of breath, oedema, myocardial i nfarc�on, coronary \nrevasculariza�on, syncope, history of palpita �ons, arrhythmias (especially AF), heart \nfailure \n Kidney: thirst, polyuria, nocturia, haematuria, urinary tract infec�ons. \n Peripheral arteries: cold extremi �es, intermi �ent claudica �on, pain free walking \ndistance, pain at rest, peripheral revasculariza �on, pa �ent or family history of CKD \n(e.g., polycys�c kidney disease). \nHistory of An�hypertensive Drug Treatment \n Current/past an�hypertensive medica�on including eﬀec�veness, intolerance or \nside eﬀects of previous medica�ons. \n Adherence to therapy and in non-compliant pa �ents the reason behind it (incl uding \nﬁnancial constraint). \n \nPhysical Examina�on \nThe physical examina�on should include the following: \n Weight and height measured on a calibrated scale, with calcula�on of BMI \n Waist circumference \n Neurological examina�on and cogni�ve status \n Fundoscopic examina�on for hypertensive re�nopathy \n Palpa�on and ausculta�on of heart and caro�d arteries \n Palpa�on of peripheral arteries \n Comparison of BP in both arms (at least once) \n Skin inspec�on: cafe-au-lait patches of neuroﬁbromatosis (phaeochromocytoma) \n Kidney palpa�on for signs of renal enlargement in polycys�c kidney disease ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_50",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 50,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n19 \n \n Ausculta�on of heart and renal arteries for murmurs or bruits indica�ve of aor�c \ncoarcta�on, or renal artery stenosis  \n Comparison of radial with femoral pulse: to detect radio-femoral delay in aor�c \ncoarcta�on \n Signs of Cushings disease or acromegaly \n Signs of thyroid disease \nTable 4: Major risk factors for cardiovascular diseases  \n Levels of SBP and DBP \n Tobacco use \n Dyslipidemia \no Total cholesterol >5.1 mmol/L \no LDL >3 mmol/l, OR \no HDL <1 (men) and <1.2 mmol/l (women) \n Diabetes mellitus \n Age (>55 years for men, >65 years for women) \n Family history of premature cardiovascular diseases \no (men <55 years or women <65 years) \n Central obesity  \no (Waist circumference >90 cm for men, >80 cm for women) \n \nTable 5:  Manifesta�ons of hypertension mediated organ damage (HMOD)  \nOrgan system Manifesta�ons & their sugges�ve signs \nCardiac Le� ventricular hypertrophy, coronary heart disease, heart \nfailure \n forcible and displaced apex beat \n accentua�on of the aor�c component of the second \nheart sound  \n abnormal cardiac rhythms  \n S4 (decreased ventricular compliance)  \n ventricular gallop  \n pulmonary rales or crackles  \nCerebrovascular Transient ischaemic a�ack, stroke \n caro�d bruits; motor or sensory defects;  \nPeripheral \nvasculature \n Absence of one or more major pulses in extremi�es \n(except dorsalis pedis) with or without intermi�ent \nclaudica�on \nRenal  GFR <60 ml/min/1.73 m2  \n proteinuria (1+ or greater) \n microalbuminuria (2 out of 3 posi�ve tests over a \nperiod of 4-6 months) \n Dependent (leg) edema \nRe�nopathy Fundoscopic abnormali�es  \n- Haemorrhages or exudates, with or without papilloedema \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.08379490409429438
+    },
+    {
+      "card": {
+        "card_id": "DEN-MED-01",
+        "disease": "dengue",
+        "category": "medication_planning",
+        "retrieval_text": "fever paracetamol dose dengue For an adult with suspected dengue, the home-management paracetamol total must not exceed 3 g in 24 hours. The cited passage does not supply an adult per-dose schedule; do not invent one. Review patient-specific contraindications and all current paracetamol-containing medicines with the clinician.",
+        "prerequisites": {
+          "field": "age_years",
+          "op": "ge",
+          "value": 18
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "age_years",
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [
+          "Per-dose schedule, route and duration not explicitly supplied in the cited passage."
+        ],
+        "recommended_action": {
+          "text": "For an adult with suspected dengue, the home-management paracetamol total must not exceed 3 g in 24 hours. The cited passage does not supply an adult per-dose schedule; do not invent one. Review patient-specific contraindications and all current paracetamol-containing medicines with the clinician.",
+          "medication": {
+            "name": "Paracetamol",
+            "dose": "Maximum total 3 g/24 hours; individual dose not stated",
+            "route": null,
+            "frequency": null,
+            "duration": null,
+            "instructions": "Do not exceed the source maximum; clinician review is required."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_47",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 47,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 47  \nNote: \n➢It is important to understand that vital signs and other parameters may be influenced by \ncomorbidities and high-risk conditions (e.g., urine output in diabetes). \n➢Settling of fever is not a sign of recovery. Some patients will start plasma leakage around \ndefervescence. \nFever Warning \nSigns (WS) \nComorbid \ncondition/High \nrisk for severe \ndisease/Advers\ne Social \ncondition \nVital \nSigns \n(VS) & \nUrinary \noutput \n(UOP) \nFresh CBC \nFinding \nPatient Risk \nStatus at \nthe Time of \nAssessment \nHospitalization \nShort \nduration \nof fever \n(or \nfever \nwithin \nlast ≤48 \nhours) \nAbsent \nWS \nAbsent Normal \nVS \n& \nNormal \nUOP \nWBC low \n(Leucopenia) \nPlatelet \n≥100x109/L \nHct: 35-40% \nor baseline \nNo \nimmediate \nrisk \nHome \nmanagement as \nwell as followed \nup and assessed \nregularly. \nPresent \nWS \nPresent Derange \nVS \nReduced \nUOP \nWBC: \ndecreasing \nPlatelet \n≤100x109/L \nIncreasing \nHct: Leaking \nDecreasing \nHct: Bleeding \nHigh risk. Inpatient \nmanagement \nTable 7: Showing dengue patients who need inpatient/outpatient management. \n \nHome management of patients: \nPatients without warning signs or  coexisting conditions or social risk should get home based care \nthrough a register of dengue patient. \n \nRecommended measures in home management: \n● Adequate physical rest in comfortable clothing, and preferably under a mosquito net \n● Control of temperature \n Tepid sponging for fever \n Do not exceed 3 gm/day of paracetamol. (60mg/kg/24hrs in child) \n Warn the patient that the fever may not fully settle with paracetamol and advise not to \ntake excess. \n● Adequate Hydration \n Ensure adequate oral fluid  intake of around 2400 ml for 24 hours (if the body weight is \nless than 50kg, give fluids as 2ml/kg/hour for 24 hours) and it is better to spread this \namount of fluid across the day. \n This should consist of fluid such as ORS, green coconut water, other fruit juices or soup \nwhich has electrolytes rather than plain water \n● Ensure adequate urine output. (Encourage to pass urine every 3 -4 hours). It is useful to \nmeasure the urine output, if possible, and document with time, as any reduction in urine \noutput can be easily identified. \n● Patient should be informed about warning sign. (page 28) \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.07129371757370374
+    },
+    {
+      "card": {
+        "card_id": "HTN-MED-02",
+        "disease": "hypertension",
+        "category": "medication_planning",
+        "retrieval_text": "high BP pregnant losartan ACE ARB contraindication hypertension ACE inhibitors, ARBs and aliskiren are contraindicated during pregnancy. Do not infer that pregnancy is absent when it has not been recorded. Pregnancy also requires appropriate specialist referral.",
+        "prerequisites": {
+          "field": "pregnant",
+          "op": "eq",
+          "value": true
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "pregnant"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "ACE inhibitors, ARBs and aliskiren are contraindicated during pregnancy. Do not infer that pregnancy is absent when it has not been recorded. Pregnancy also requires appropriate specialist referral.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "hypertension_pdf_60",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 60,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n29 \n \nFig 4. Algorithm 1: An approach for star�ng treatment with monotherapy or free combina�on \ntherapy10. (Adapted from WHO 2021)  \n Treat adults with BP ≥140 or ≥90 mmHg\n(SBP ≥ 130 mmHg for those with CVD, DM, CKD)\nStart with medica�ons from any of the folowing three classes of \npharmacological an�hypertensive medica�ons as an ini�tal treatment: \n1) long- ac�ng dihydropyridine CCB, 2) ACEi, and 3) thiazide and thiazide-like \nagents\nTreatment target:<140/90 mmHg \n(SBP <130 for high-risk pa�ents with CVD, DM, CKD)\nFollow-up monthly a�er ini�a�on or a change in an�hypertensive medica�ons \nun�l pa�ent reaches target \nFollow-up every 3-6 months for pa�ents with BP under control  \nPharmacological treatment to be ini�ated under the following circumstances: \n A diagnosis of HTN has already been made. \n Ini�a�on of pharmacological HTN treatment should start no later than four weeks a�er \ndiagnosis of HTN. \n If BP level is high or there is accompanying evidence of end organ damage, ini�a�on of \ntreatment should be started without delay. \n Pa�ent should be counselled about star�ng medica�on therapy. \n Basic laboratory tes�ng (electrolytes, crea�nine, lipogram, glucose, HbA1C, urine \ndips�ck, and ECG) to occur if it does not delay treatment. \n A cv risk assessment can be conducted immediately (as long as it does not delay \nini�a�on of treatment or at later visit)  \n A CCB, rather than a thiazide-type diure�c or ACEi/ARB, should be  selected as ﬁrst-line \nmedica�on if one agent is used, to avoid the need for electrolyte measurements or to \nalleviate concerns regarding poten�al change in GFR. \n Drugs aﬀec�ng the renin-angiotensin system (ACEis, ARBs, and aliskiren) have been \nassociated with serious fetal toxicity, including renal and cardiac abnormali�es and \ndeath; they are contraindicated for use during pregnancy. \n Consider using diure�c or CCB in pa�ents 65 years or older, beta-blockers (BBs) in post \nMI, ACEis / ARBs in those with DM, heart failure or CKD \n \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_65",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 65,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n34 \n \n5.3.4 Frequency of assessment and follow-up visits  \nA monthly follow up a�er ini �a�on or a change in an �hypertensive medica �ons un�l \npa�ents reach target should be done. Once target BP is achieved, follow-up at three to six-\nmonth interval is appropriate. Recommended blood pressure measurement plan according to \noﬃce blood pressure levels is as shown in Table 6.  \nTable 6: Recommenda�ons for follow-up based on ini �al blood pressure \nmeasurements for adults  \nIni�al BP (mmHg)  \nSystolic and Diastolic \nFollow-up recommended to conﬁrm diagnosis \nand/or review response to treatment \n<130 and <85 Remeasure within 3 years (1 year in those with \nother risk factors)  \n130-159 and/or 85-99  Confirm with repeated oﬃce BP measures \nwithin 1- 4 weeks \n≥160 and/or 100  Evaluate a nd Ini�ate treatment immediately \n \n \n5.3.5 Goals for BP lowering treatment \nEﬀorts must be made to reach the target BP level. The se targets should be reached within 3 \nmonths.  In general, once the BP is controlled, most pa�ents will require life-long treatment. \n A target blood pre ssure treatment goal of <1 40/90 mmHg in all pa �ents with \nhypertension without comorbidi�es. \n A target systolic blood pressure treatment goal of <130 mmHg in high-risk pa�ents \nwith hyperten sion (those with high CVD risk, known CVD, di abetes melli tus, \nchronic kidney disease)10. \n \n5.3.6 When to Refer \nPa�ents with the fo llowing condi�ons should be refe rred to the appropriate specialist for \nfurther assessment. Indica�ons for referral to the appropriate specialist include: \n\n\n\n\n\n\naccelerated or malignant hypertension \nsuspected seco ndary hypertension \nresistant hypertension \nrecent onset of target organ d amage \npregnancy \nchildren < 18 years old ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.06822733414188674
+    },
+    {
+      "card": {
+        "card_id": "DEN-INV-01",
+        "disease": "dengue",
+        "category": "investigations",
+        "retrieval_text": "fever early test baseline dengue At the first consultation within the first five illness days, obtain CBC including haematocrit, dengue NS1 antigen and SGOT/SGPT for baseline assessment and diagnostic support. NS1 may become negative from day 4–5; do not claim a negative NS1 excludes dengue.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "illness_day",
+              "op": "ge",
+              "value": 1
+            },
+            {
+              "field": "illness_day",
+              "op": "le",
+              "value": 5
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "illness_day"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "At the first consultation within the first five illness days, obtain CBC including haematocrit, dengue NS1 antigen and SGOT/SGPT for baseline assessment and diagnostic support. NS1 may become negative from day 4–5; do not claim a negative NS1 excludes dengue.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_38",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 38,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 38  \nChapter-4 \n \n4.1 Laboratory Investigations for Dengue: \n \nDengue (DEN) virus, which has 4 distinct serotypes, i.e. DEN -1, DEN-2, DEN-3 & DEN-4. Early \nlaboratory confirmation of clinical diagnosis may be important because some patients progress \nwithin a short period from mild to severe disease and sometimes to death. \n \n4.1.1 Laboratory Tests for Diagnosis and Monitoring \nThe management of dengue cases is based on both clinical features and laboratory evaluations. \nSuggestive laboratory test of dengue cases management is following: \nCBC and NS-1 Ag/ Anti-Dengue Ab should be done in all suspected dengue patients at their first visit \ndepending on the day of presentation. \n \n4.1.1.1 Complete Blood Count (CBC): \n \nWBC counts:  Leucopenia is common in both adults and children with DF (Level 1) and has an \nimportant diagnostic  implication in early period. The change in total white cell count (≤5000 \ncells/mm3) and ratio of neutrophils to lymphocyte (neutrophils <lymphocytes) is useful to predict \nthe critical period of plasma leakage  (Level 6). NLR (Neutrophil Lymphocyte ratio) <2 strongly \ncorrelates with  low platelets indicating  severity of disease and reversal of NLR >2 correlates with \nimprovement of disease (Level 6). This finding precedes thrombocytopenia or rising haematocrit. \nThese changes seen in DF and DHF.  \n \nTotal Platelet count (PC): Thrombocytopenia is observed in patients with DF & DHF. The level \nof platelet  count is correlated with severity of DHF (level 1). Thrombocytopenia (<100,000/mm3) \nusually precedes/accompanies plasma leakage. \n \nHaematocrit (Hct):  Haemotacrit is  most important tool in  diagnosing and  guiding effective  \ntreatment of  dengue patient(Level 5). Approximately 5-10% increase in Hct may occur due to high \nfever, anorexia and vomiting. A sudden rise in haematocrit is observed simultaneously or shortly \nafter the drop in platelet count. Rising haematocrit more than 10 % indicates starting plasma lekage \nand rising haematocrit by 20% from the baseline indicates established plasma leakage. For example, \nrising haematocrit from 35 to 42 indicates 20% rise. In critical phase / leaking phase haematocrit \nmay not rise due to concomitant concealed or overt bleeding. During plasma leakage period Hct \nshould be monitored at least twice daily and more frequently considering the clinical scenario, If \nfacilities available.  Bedside haematocrit is suggested in admitted patients. There is no data but it \nassumes that base line Hct in child, adult female and adult male are 35%, 38% and 40% respectively. \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_39",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 39,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 39  \n4.1.1.2 Dengue antigen and antibody tests: \nDetection of antigen: dengue NS1 antigen (non-structural protein 1): \n• The Dengue NS1 antigen usually positive on first day of illness. \n• This antigen test may become negative from 4-5 days of illness. \n \n \n \n \n \n \n \n \nDengue IgM /IgG antibody test (MAC ELISA or enzyme-linked immuno-sorbent assay or Rapid \nImmnuno Chromatomatic Test): \n \n• Anti-dengue IgM can be detected after 5 days of the onset of fever and reaches highest level \nafter 7 days of fever. \n• It can be detected up to 1-3 months after dengue fever. \n• In primary dengue infection - anti-dengue IgM will be detected earlier than IgG which (IgG) \nwill appear on the 9th or 10th day of illness. Level of this IgG may persist at low levels for life \nlong, indicating past dengue infection. \n• In secondary dengue infection- higher levels of anti-dengue IgGand lower levels of anti- \ndengue IgM are detected at 2nd week. The anti-dengue IgG levels detected lifelong. \n \n4.1.1.3 Nucleic Acid Detection: \n• Dengue diagnosis is confirmed by detecting DEN viral RNA using  reverse transcriptase \npolymerase chain reaction  (RT-PCR; This test is usually positive within 5 days of onset of \nsymptoms. It can also be detected by traditional PCR.) \n \n4.1.1.4 Dengue Virus Isolation: \n• This test is usually done for research purpose and are not readily used for routine diagnostic \ntest. \n• Dengue virus isolation in cell culture (Vero, C6/36 cell lines) done from serum, plasma and \nleucocytes is the most definitive test for dengue infection, which can be usually \naccomplished in majority of cases if the sample  is taken in the first five days of onset of \nsymptoms. \n• Isolation of dengue virus also from CSF or autopsy samples. \n• Detection of dengue virus or antigen in tissue, serum or cerebrospinal fluid by \nimmunohistochemistry, immunofluorescence \n• Detection of dengue virus genomic sequences by reverse transcription - polymerase chain \nreaction. \n  \nNote: The sensitivity, specificity, positive, and negative predictive value of rapid dengue NS1 \nantigen test were 81.5%, 66.7%, 78.2%, and 71.1%, respectively whereas that of NS1 ELISA were \n89.9%, 100%, 100%, and 94%, respectively. Concordance of Rapid NS1 and NS1 ELISA with PCR was \n75.5% and 94%. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_41",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 41,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 41  \n \nFigure 19: Changes in serological markers used in dengue diagnosis during primary and secondary \ndengue infections \n \n4.1.5 Time and frequency of investigation: \n \nWithin 5 days: CBC, Haematocrit, Dengue NS1 antigen, SGOT, SGPT \n• These tests should be done during first consultation to get the baseline characteristics like \nHaematocrit and complete blood count if the patient presented within 5 days of fever. \n• Follow up testing may be done on 1st afebrile day, but should be done daily once DHF \nis suspected. \n• A regular haematocrit is more important for management than the platelet count \n• Even in severe dengue especially with shock haematocrit to be monitored 3 hourly or \nmore frequently is crucial for management. (According to monitoring chart; Annexure) \n• Once the platelet count begins to rise and reaches ≥ 50,000/mm3,daily lab evaluations may \nbe discontinued. \n \n4.1.6 Role of point of care (POC) ultrasound in dengue: \n \nPoint of care ultrasonography is not essential to manage dengue patient but it has now evolved into \nan important and reliable method of diagnosing plasma leakage objectively in clinically suspected DHF \npatients. (Level 4) \nThere are many advantages of POC ultrasound. It can be done at the bedside on unprepared patients \nand can be repeated frequently if needed. POC ultrasound can also be used to predict the probable \nduration of the critical phase. \n \nAreas of interest of POCS in dengue  \n \nMain areas: \n \n• Gallbladder - gallbladder wall thickening and appearance of para cholecystic fluid \n• Fluid in the hepato-renal pouch \n• Fluid in right pleural cavity \n• Fluid in the pelvis (recto vesical pouch) \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.06664124646146323
+    },
+    {
+      "card": {
+        "card_id": "CHIK-MED-02",
+        "disease": "chikungunya",
+        "category": "medication_planning",
+        "retrieval_text": "fever joint pain ibuprofen NSAIDs aspirin steroid chikungunya Avoid aspirin/NSAIDs during the first 10 days. NSAIDs can be used for chikungunya only when dengue has been adequately excluded. Steroids have no role in the acute stage. Do not recommend antibiotics unless a secondary bacterial infection is supported.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Avoid aspirin/NSAIDs during the first 10 days. NSAIDs can be used for chikungunya only when dengue has been adequately excluded. Steroids have no role in the acute stage. Do not recommend antibiotics unless a secondary bacterial infection is supported.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_20",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 20,
+            "evidence_passage": "20 \n \n Mild forms of exercise and physiotherapy are recommended in recovering \npersons. \n Aspirin or NSAIDs  should be avoided during first 10 days . NSAIDs can be \nused in Chikungunya only when Dengue fever is adequately excluded. \n Cutaneous manifestations with topical or systemic drugs, and neuro -\npsychiatric problems with specialist care and drugs). \n Steroid has no role in acute stage.  \n In cases with ophthalmic sym ptoms complications, consult wi th \nophthalmologists. \n \nTreatment of serious complications  \n Bleeding disorders with blood components - platelet transfusions in case of \nbleeding with platelet  counts of less than 50,000 cells per cu mm., fresh \nfrozen plasma, or Vitamin K injections if prothrombin time INR is more than \n2. \n Hypotension with fluids/ inotropics, acute renal failure with dialysis, \ncontractures and deformities with physiotherapy/surgery, \n Patients with myo-pericarditis or meningoencephalitis may require intensive \ncare with regular monitoring, inotropic support, ventilation etc.  \n Anti-neuralgic drugs (Amitryptyline, Carbamazepine, Gabapentin, and \nPregabalin) can be used in standard doses in disturbing neuropathies. \n Use hydroxychloroquine 200 mg orally once daily or chloroquin phosphate  \n300 mg orally per day for a period of four weeks in cases where arthralgia is \nrefractory to other drugs. \n Hyperpigmentation and papular eruptions can be managed with Zinc oxide  \ncream and/or Calamine lotion \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.06632423316819447
+    },
+    {
+      "card": {
+        "card_id": "CHIK-INV-01",
+        "disease": "chikungunya",
+        "category": "investigations",
+        "retrieval_text": "fever joint pain PCR IgM test timing chikungunya Within five days of illness onset, chikungunya RT-PCR can provide laboratory evidence. The source lists specific IgM in a sample collected within days 5–28 and a fourfold IgG rise in paired samples at least three weeks apart with the first after day 7. Establish illness day before selecting the test; note the source cautions about poor ICT kit validity.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "illness_day"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Within five days of illness onset, chikungunya RT-PCR can provide laboratory evidence. The source lists specific IgM in a sample collected within days 5–28 and a fourfold IgG rise in paired samples at least three weeks apart with the first after day 7. Establish illness day before selecting the test; note the source cautions about poor ICT kit validity.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_11",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 11,
+            "evidence_passage": "11 \n \nCase definition \nChikungunya Fever should be suspected when a person develops sudden onset \nof fever, joint manifestations and rash. \nCases are to be categorized as: \na) Possible case: a patient meeting only clinical criteria \nb) Probable case: a patient meeting both the clinical and epidemiological \ncriteria \nc) Confirmed case: a patient meeting the laboratory criteria, irrespective of the \nclinical presentation \n \nCriteria for the Identification of Chikungunya Infection \nClinical criteria \n acute onset of fever >38.5°C \n severe arthralgia/arthritis not explained by other medical conditions \nEpidemiological criteria \n Residing or having visited epidemic areas \n having reported transmission within 15 days prior to the onset of symptoms \nLaboratory Criteria: at least one of the following tests in the acute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific IgM antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of IgG  antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_22",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 22,
+            "evidence_passage": "22 \n \n SGPT: Elevated \n \nSpecific Laboratory Investigations : at least one of the following tests in the \nacute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific Ig M antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of  Ig G antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \nN.B.:  \n1. Diagnostic validity of currently available ICT kit for the  detection of \nIgM and IgG for Chikungunya virus is very poor. \n2. RT-PCR for Chikungunya is performed only at IEDCR. \n \nPublic Health Measures  \n \nPatient when infected can spread the infection by spreading the infection \nthrough mosquitoes. It is important to b reak this transmission by minimizing \nthe vector density by community participation and taking appropriate control \nmeasures in the hospital setting by following measures.  \n \n Minimizing transmission of infection:  This can be done in the \nfollowing ways:  \no  Risk communication to the household members \no  Minimize the vector population  \no  Minimize the vector -patient contact (Aedes mosquitoes bite \nduring day time, mostly in  the morning and late afternoon)  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.05834872056519956
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-ABX-ADULT",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea antibiotic single dose pregnant adult cholera For an eligible adult cholera patient, the source lists preferred doxycycline 300 mg as a single dose, or alternative azithromycin 1 g as a single dose. These are alternatives, not a combination. The source passage does not specify route; leave it unknown. Clinician review of allergies and patient-specific suitability is required.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 18
+            },
+            {
+              "any": [
+                {
+                  "field": "hydration_class",
+                  "op": "eq",
+                  "value": "severe"
+                },
+                {
+                  "field": "pregnant",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "field": "elderly",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "age_years",
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [
+          "Antibiotic route not explicitly stated; no numeric elderly threshold supplied."
+        ],
+        "recommended_action": {
+          "text": "For an eligible adult cholera patient, the source lists preferred doxycycline 300 mg as a single dose, or alternative azithromycin 1 g as a single dose. These are alternatives, not a combination. The source passage does not specify route; leave it unknown. Clinician review of allergies and patient-specific suitability is required.",
+          "medication": {
+            "options": [
+              {
+                "name": "Doxycycline",
+                "dose": "300 mg",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Preferred option in this source; clinician review."
+              },
+              {
+                "name": "Azithromycin",
+                "dose": "1 g",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Alternative, not add-on."
+              }
+            ],
+            "combination": false
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.05703361135897849
+    }
+  ],
+  "raw_model_output": "```json\n{\n  \"probable_diagnosis\": [\n    {\n      \"card_id\": \"DEN-DX-01\",\n      \"reason\": \"The patient presents with acute fever, body aches, and joint pain, which are compatible features of dengue.\",\n      \"status\": \"suspected\"\n    },\n    {\n      \"card_id\": \"CHIK-DX-01\",\n      \"reason\": \"The patient presents with fever and joint manifestations (joint pain), supporting suspected chikungunya as a differential diagnosis.\",\n      \"status\": \"suspected\"\n    }\n  ],\n  \"investigations\": [\n    {\n      \"card_id\": \"DEN-INV-03\",\n      \"reason\": \"Essential patient history and clinical parameters such as illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, and comorbidities are missing and must be established.\"\n    },\n    {\n      \"card_id\": \"CHIK-INV-02\",\n      \"reason\": \"Routine investigations including CBC, ESR, CRP, and SGPT should be performed to assess for chikungunya, dengue, and relevant coinfections.\"\n    }\n  ],\n  \"medication_planning\": [],\n  \"advice\": [\n    {\n      \"card_id\": \"CHIK-ADV-01\",\n      \"reason\": \"Provide self-care advice including adequate rest, avoiding exertion, maintaining appropriate fluids, using cold compresses for joint symptoms, and avoiding self-medication with aspirin or NSAIDs.\"\n    }\n  ],\n  \"clarifications\": [\n    {\n      \"question\": \"What is the patient's exact age in years?\"\n    },\n    {\n      \"question\": \"What is the exact illness day (duration of fever)?\"\n    },\n    {\n      \"question\": \"Does the patient have any pre-existing liver or kidney disease?\"\n    },\n    {\n      \"question\": \"Are there any warning signs of dengue or signs of severe disease/dehydration present?\"\n    }\n  ],\n  \"limitations\": [\n    \"Patient age, sex, illness day, pregnancy status, elderly status, allergies, and current medications are currently unknown, limiting definitive medication selection and precise diagnostic test timing.\"\n  ]\n}\n```",
+  "model": {
+    "requested_model": "gemini-3.5-flash-lite",
+    "returned_model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "usage": {
+      "completion_tokens": 502,
+      "prompt_tokens": 28694,
+      "prompt_tokens_details": {
+        "cached_tokens": 26592
+      },
+      "total_tokens": 29196
+    },
+    "model_seconds": 2.7090939999907278,
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "attempts": 1,
+    "retry_history": [],
+    "retry_policy": "Up to 3 attempts; retry HTTP 502/503/504 and timeouts; 90-second network timeout per attempt. Same request/model on every attempt.",
+    "usage_note": "Usage is the successful response only. Provider processing/billing for failed attempts is unknown."
+  },
+  "cards_sha256": "ff546b6f2eca12979f44c5f84943b8a700419384b7e96839a430404274bf53aa",
+  "prompt_sha256": "fe6da9474b6a25f25a61997485fbad3129e72edc08c41a57d6ea8147f633a645",
+  "top_k": 16,
+  "rendered": {
+    "probable_diagnosis": [
+      {
+        "card_id": "DEN-DX-01",
+        "disease": "dengue",
+        "model_reason": "The patient presents with acute fever, body aches, and joint pain, which are compatible features of dengue.",
+        "diagnostic_status": "suspected",
+        "recommendation": {
+          "text": "Consider dengue in acute febrile illness with compatible features such as severe headache, retro-orbital pain, myalgia, arthralgia, rash, nausea or vomiting. Symptoms alone support suspected dengue, not laboratory confirmation. Show the supporting findings and consider chikungunya among alternatives.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_27",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 27,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 27  \n3.1.2.2 Classical Dengue fever (DF) \nA proportion of patients infected with dengue virus develop classical dengue fever characterized by \nhigh fever, severe headache, retro -orbital pain, myalgia, arthralgia and rashes. Leucopenia and \nthrombocytopenia are usually observed. Although DF is usually benign, it could be an incapacitating \ndisease due to severe headache and musculo-skeletal pains (break-bone fever). Occasionally, unusual \nhaemorrhage such as gastrointestinal bleeding, hypermenorrhea and massive epistaxis may occur. \n \nFever \n• Sudden onset, high grade, continued. \n• The body temperature is usually between 39 °C and 40 °C (102° F to 104° F). \n• The fever may be biphasic, lasting 2–7 days in the majority of cases. \n \nRash \nfirst 2 to 3 days - Diffuse flushing or blanching erythema may be seen on the face, neck and chest \n \nThird and fourth day - a conspicuous rash that may be maculo-papular or rubelliform. \n \nAfebrile period or defervescence - Some patients have a confluent erythematous or petechial rash \nwith small areas of normal skin, described as “isles of white in the sea of red” may appear over the \ndorsum of the feet, on the legs and on the hands and arms. Skin itching may be observed. \n \nRash in dengue fever: \n \n \nFigure 12: Dengue rash \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_37",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 37,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 37  \n3.2 Differential Diagnosis of Dengue Fever \n \nFever that has similar clinical feature of dengue like fever, rash, body ache, headache are its \ndifferential diagnosis. Clinical presentation of following infections has similarity with dengue fever: \nInfection by \nArboviruses: Chikungunya virus, Zika virus \nOther Viral Infection:  Measles, rubella and other viral exanthems, Epstein -Barr virus (EBV), \nEnteroviruses, Influenza, Hepatitis A, Hanta virus. \nBacterial diseases:  Meningococcemia, Leptospira, Enteric fever, Melioidosis, Rickettsial disease, \nScarlet fever, Sepsis. \nParasitic Disease: Malaria. \nDengue, Chikungunya and Zika \nDengue, chikungunya, and Zika are all mosquito-borne viral diseases that can cause similar symptoms, \nsuch as fever, headaches, muscle and joint pain. \nClinical signs and symptoms and laboatory findings to differentiate dengue, zika and \nchikungunya. \n \n \n \n \nTable 2: Table showing clinical differentiation among dengue, chikungunya and zika. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ]
+      },
+      {
+        "card_id": "CHIK-DX-01",
+        "disease": "chikungunya",
+        "model_reason": "The patient presents with fever and joint manifestations (joint pain), supporting suspected chikungunya as a differential diagnosis.",
+        "diagnostic_status": "suspected",
+        "recommendation": {
+          "text": "Suspect chikungunya with sudden fever, joint manifestations and rash. Clinical criteria include acute fever >38.5°C and severe arthralgia/arthritis not otherwise explained. Clinical-only cases are possible; clinical plus epidemiological criteria are probable; laboratory criteria support confirmed classification. Dengue remains a differential.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_11",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 11,
+            "evidence_passage": "11 \n \nCase definition \nChikungunya Fever should be suspected when a person develops sudden onset \nof fever, joint manifestations and rash. \nCases are to be categorized as: \na) Possible case: a patient meeting only clinical criteria \nb) Probable case: a patient meeting both the clinical and epidemiological \ncriteria \nc) Confirmed case: a patient meeting the laboratory criteria, irrespective of the \nclinical presentation \n \nCriteria for the Identification of Chikungunya Infection \nClinical criteria \n acute onset of fever >38.5°C \n severe arthralgia/arthritis not explained by other medical conditions \nEpidemiological criteria \n Residing or having visited epidemic areas \n having reported transmission within 15 days prior to the onset of symptoms \nLaboratory Criteria: at least one of the following tests in the acute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific IgM antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of IgG  antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_17",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 17,
+            "evidence_passage": "17 \n \n(6) Malaria: patient can present with high fevers and may also complain of \njoint pains. Periodici ty of fever and alteration of consciousness / seizures \nshould prompt a diagnosis for malaria \n(7) Leptospirosis: Severe myalgia localized to calf muscles with conjunctival \ncongestion/ or subconjunctival  haemorrhage with or without oliguria or \njaundice in a pers on with history of skin contact to contaminated water \nwould suggest Leptospirosis \n \nClinical and laboratory features of chikungunya virus infections \ncompared with dengue virus infections \n \n \n \n \n \n \n \n \n \n \n \n \n \nChikungunya and dengue  \n Difficult to distinguish chikungunya and dengue  based on clinical \nfindings alone  \n Chikungunya and dengue viruses transmitted by the same mosquitoes \nChikungunya Dengue \nFever (>38.5°C)  +++ ++ \nArthralgia  +++ +/- \nArthritis  + - \nHeadache  ++ ++ \nRash  ++ + \nMyalgia  + ++ \nHemorrhage  +/- ++ \nShock  - + \nLymphopenia +++ ++ \nNeutropenia + + \nThrombocytopenia  + +++ \nHemoconcentration - ++ ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ]
+      }
+    ],
+    "investigations": [
+      {
+        "card_id": "DEN-INV-03",
+        "disease": "dengue",
+        "model_reason": "Essential patient history and clinical parameters such as illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, and comorbidities are missing and must be established.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Establish illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, comorbidities and high-risk/social circumstances. Examine mental status, hydration and haemodynamics before selecting home management.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_46",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 46,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 46  \nPhysical examination: \n• Mental status \n• Hydration status \n• Haemodynamic status \n• Tachypnoea/ acidotic breathing/ pleural effusion \n• Abdominal tenderness/ hepatomegaly/ ascites \n• Bleeding manifestation \n \nInvestigation: \n• CBC and Hct \n• NS-1 \n• SGPT/SGOT \n• CRP (level 4) \nBesides checking clinical and lab parameter of dengue, proper history to be taken on comorbid \ncondition, high risk for severe disease and adverse social condition of the patients. \n \nPatients at high risk for more severe disease and its complications may need admission \neven without the above criteria. \n Pregnant women \n Elderly \n Obesity \n Patients on anticoagulants \n \nPatients with comorbid conditions: \n Diabetes mellitus \n Hypertension \n Chronic renal failure \n Established liver disease \n Ischemic heart disease \n Solid organ/bone marrow transplant \n Active malignancies \n Hemolytic diseases and other haemoglobinopathies \n Peptic ulcer disease \n Patients on steroid or NSAID treatment \n Patients on anticoagulants \n \nPatients with adverse social circumstances \n Age <1 year or >65 years \n Living alone or has poor access to healthcare facilities \n Lack of transportation \n Unstable housing \n Extreme poverty \nAll patients should be assessed in a stepwise manner to reach at the diagnosis, determine the severity \nand place of management. \nAt the end of evaluation, attending physician should be able to assess the patient on following \npoints. \n Could this patient have dengue? \n Are there any warning sign? \n Is the patient having plasma leakage? \n Is the patient in shock? \n What is the haemodynamic and hydration status of the patient? \n Are there any co-morbidities or high-risk conditions or adverse social condition? \n Is hospitalization required immediately/early? ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ]
+      },
+      {
+        "card_id": "CHIK-INV-02",
+        "disease": "chikungunya",
+        "model_reason": "Routine investigations including CBC, ESR, CRP, and SGPT should be performed to assess for chikungunya, dengue, and relevant coinfections.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Routine investigations in this source include CBC, ESR, CRP and SGPT. Assess for dengue and relevant coinfections; symptoms alone may not distinguish dengue from chikungunya.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_17",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 17,
+            "evidence_passage": "17 \n \n(6) Malaria: patient can present with high fevers and may also complain of \njoint pains. Periodici ty of fever and alteration of consciousness / seizures \nshould prompt a diagnosis for malaria \n(7) Leptospirosis: Severe myalgia localized to calf muscles with conjunctival \ncongestion/ or subconjunctival  haemorrhage with or without oliguria or \njaundice in a pers on with history of skin contact to contaminated water \nwould suggest Leptospirosis \n \nClinical and laboratory features of chikungunya virus infections \ncompared with dengue virus infections \n \n \n \n \n \n \n \n \n \n \n \n \n \nChikungunya and dengue  \n Difficult to distinguish chikungunya and dengue  based on clinical \nfindings alone  \n Chikungunya and dengue viruses transmitted by the same mosquitoes \nChikungunya Dengue \nFever (>38.5°C)  +++ ++ \nArthralgia  +++ +/- \nArthritis  + - \nHeadache  ++ ++ \nRash  ++ + \nMyalgia  + ++ \nHemorrhage  +/- ++ \nShock  - + \nLymphopenia +++ ++ \nNeutropenia + + \nThrombocytopenia  + +++ \nHemoconcentration - ++ ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_21",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 21,
+            "evidence_passage": "21 \n \nSpecial Situation \nEffect on pregnancy  \nChikungunya fever appears to have a direct impact on pregnancy  with rare \nreports of spontaneous abortions and mother -to-child transmission in perinatal \nperiod.  \n \nEffect on neonates  \nMothers afflicted with C hikungunya fever in the perinatal period (−4 days to \n+1 days before/after delivery) can transmit Chikungunya fever to neonates by \nvertical transmission. Caesarean section does not appear to prevent \ntransmission. Neonatal CHIK fever is associated with fever, po or feeding, \npain, distal edema,  various skin manifestatio ns, seizures, meningo -\nencephalitis, and echocardiographic abnormalities in the newborn. No infants \nare found to be infected with chikungunya virus through breast feeding. \nMothers are encouraged to breast feed their infants. \n \nLaboratory Diagnosis \nPreferred Specimen:  \n1) Blood or Serum \n2) CSF (if neurological features present) \n \nRoutine Laboratory Investigations \n CBC \no Leucopenia (Decreased WBC) \no Thrombocytopenia: rare \no ESR: Usually Elevated \n C-Reactive Protein: Increased during the Acute Phase and may remain \nelevated for a week ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_22",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 22,
+            "evidence_passage": "22 \n \n SGPT: Elevated \n \nSpecific Laboratory Investigations : at least one of the following tests in the \nacute phase: \n Virus isolation by Cell Culture \n Presence of viral RNA by real Time RT -PCR (Within 5 days of onset of \nIllness) \n Presence of viral specific Ig M antibody in single serum sample collected \nwithin 5 to 28 days of onset Fever \n Four-fold Rise of  Ig G antibody in samples collected at least three weeks \napart (1st sample after 7 days ) \n \nN.B.:  \n1. Diagnostic validity of currently available ICT kit for the  detection of \nIgM and IgG for Chikungunya virus is very poor. \n2. RT-PCR for Chikungunya is performed only at IEDCR. \n \nPublic Health Measures  \n \nPatient when infected can spread the infection by spreading the infection \nthrough mosquitoes. It is important to b reak this transmission by minimizing \nthe vector density by community participation and taking appropriate control \nmeasures in the hospital setting by following measures.  \n \n Minimizing transmission of infection:  This can be done in the \nfollowing ways:  \no  Risk communication to the household members \no  Minimize the vector population  \no  Minimize the vector -patient contact (Aedes mosquitoes bite \nduring day time, mostly in  the morning and late afternoon)  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ]
+      }
+    ],
+    "medication_planning": [],
+    "advice": [
+      {
+        "card_id": "CHIK-ADV-01",
+        "disease": "chikungunya",
+        "model_reason": "Provide self-care advice including adequate rest, avoiding exertion, maintaining appropriate fluids, using cold compresses for joint symptoms, and avoiding self-medication with aspirin or NSAIDs.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Rest and avoid exertion during acute illness; cold compresses may help joint symptoms, while heat may worsen acute joint pain. Mild exercise and physiotherapy are for recovery. Maintain appropriate fluids. Avoid self-medication with aspirin or NSAIDs.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ]
+      }
+    ]
+  },
+  "blocked_or_conditional": [],
+  "errors": [],
+  "clarifications": [
+    {
+      "question": "What is the patient's exact age in years?"
+    },
+    {
+      "question": "What is the exact illness day (duration of fever)?"
+    },
+    {
+      "question": "Does the patient have any pre-existing liver or kidney disease?"
+    },
+    {
+      "question": "Are there any warning signs of dengue or signs of severe disease/dehydration present?"
+    }
+  ],
+  "limitations": [
+    "Patient age, sex, illness day, pregnancy status, elderly status, allergies, and current medications are currently unknown, limiting definitive medication selection and precise diagnostic test timing."
+  ],
+  "elapsed_seconds": 2.829753099998925
+}

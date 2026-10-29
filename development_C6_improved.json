@@ -1,0 +1,1094 @@
+{
+  "mode": "improved",
+  "patient": {
+    "age_years": 30,
+    "sex": "female",
+    "illness_day": 1,
+    "pregnant": true,
+    "elderly": false,
+    "allergies": [],
+    "current_medicines": [],
+    "history": "No known chronic disease.",
+    "symptoms": "Acute watery diarrhoea during a declared cholera outbreak. Awake and alert, normal pulse and thirst, eyes not sunken, normal skin pinch. No respiratory distress, lethargy or vomiting; drinks safely.",
+    "hydration_class": "none",
+    "can_drink_safely": true,
+    "weight_kg": 60,
+    "declared_outbreak": true
+  },
+  "retrieved": [
+    {
+      "card": {
+        "card_id": "CHOL-DX-01",
+        "disease": "cholera",
+        "category": "probable_diagnosis",
+        "retrieval_text": "পাতলা পায়খানা ডায়রিয়া watery diarrhoea diarrhea outbreak cholera cholera In a declared cholera outbreak, any person with acute watery diarrhoea meets the suspected-case definition. Outside an outbreak, the definition requires age ≥2 years with acute watery diarrhoea and severe dehydration, or death from acute watery diarrhoea. Do not report cholera as laboratory-confirmed from symptoms alone.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "In a declared cholera outbreak, any person with acute watery diarrhoea meets the suspected-case definition. Outside an outbreak, the definition requires age ≥2 years with acute watery diarrhoea and severe dehydration, or death from acute watery diarrhoea. Do not report cholera as laboratory-confirmed from symptoms alone.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.3575981912883716
+    },
+    {
+      "card": {
+        "card_id": "CHOL-INV-01",
+        "disease": "cholera",
+        "category": "investigations",
+        "retrieval_text": "watery diarrhoea thirsty hydration examine cholera Assess hydration using mental status, pulse, respiratory distress, ability to drink, sunken eyes and skin pinch. Severe dehydration is one or more danger signs OR at least two severe signs. Some dehydration requires no danger signs AND at least two listed some-dehydration signs; assess severe criteria first. Do not classify incomplete findings as normal. Pages 5–14 do not supply a routine confirmatory laboratory-testing algorithm.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Assess hydration using mental status, pulse, respiratory distress, ability to drink, sunken eyes and skin pinch. Severe dehydration is one or more danger signs OR at least two severe signs. Some dehydration requires no danger signs AND at least two listed some-dehydration signs; assess severe criteria first. Do not classify incomplete findings as normal. Pages 5–14 do not supply a routine confirmatory laboratory-testing algorithm.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_6",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 6,
+            "evidence_passage": "Evaluating dehydration and admission criteria \nSigns Treatment Admit\nSevere\ndehydration \nOne or more danger signs: \n• Lethargic or unconscious \n• Absent or weak pulse \n• Respiratory distress\nOR at least 2 of the following: \n• Sunken eyes \n• Not able to drink or drinks poorly \n• Skin pinch goes back very slowly \nPlan C Yes\nSome\ndehydration \nNo danger signs AND at least 2 of the following: \n• Irritable or restless \n• Sunken eyes \n• Rapid pulse \n• Thirsty (drinks eagerly) \n• Skin pinch goes back slowly \nPlan B Yes\nNo \ndehydration \n• Awake and alert \n• Normal pulse \n• Normal thirst \n• Eyes not sunken \n• Skin pinch normal \nPlan A No\nClinical tools for cholera treatment facilities\nv1.0\nEvaluating dehydration and admission criteria \nSigns Treatment Admit \nSevere One or more danger signs: PlancC Yes \ndehydration ¢ Lethargic or unconscious \n« Absent or weak pulse \n¢ Respiratory distress \nOR at least 2 of the following: \n« Sunken eyes \n¢ Not able to drink or drinks poorly \n¢ Skin pinch goes back very slowly \nSome No danger signs AND at least 2 of the following: PlanB Yes \n2 ¢ Irritable or restless \ndehydration Sunken eyes \n«Rapid pulse \n¢ Thirsty (drinks eagerly) \n¢ Skin pinch goes back slowly \nNo ¢ Awake and alert \n: «Normal pulse \ndehydration ¢ Normal thirst \n- Eyes not sunken \n¢ Skin pinch normal \nYAN @) World Health WY b “vv Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.343895543213933
+    },
+    {
+      "card": {
+        "card_id": "CHOL-ADV-01",
+        "disease": "cholera",
+        "category": "advice",
+        "retrieval_text": "watery diarrhoea discharge ORS advice return prevention cholera Before discharge, reassess: no dehydration, takes ORS without vomiting, no watery stool for four hours, walks without assistance and passes urine. Provide at least four ORS packets for home use and explain prevention and seeking treatment for at least three diarrhoea episodes in 24 hours. Do not declare discharge eligibility unless the required findings are known.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Before discharge, reassess: no dehydration, takes ORS without vomiting, no watery stool for four hours, walks without assistance and passes urine. Provide at least four ORS packets for home use and explain prevention and seeking treatment for at least three diarrhoea episodes in 24 hours. Do not declare discharge eligibility unless the required findings are known.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_14",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 14,
+            "evidence_passage": "Discharge assessment \n❑ Ensure patients and their caregivers understand \nthat anyone with at least 3 episodes of diarrhoea\nin 24 hours should seek treatment.\n❑ Ensure all patients and their caregivers \nunderstand how to prevent cholera before \ndischarge.\n❑ Provide at least 4 packets of ORS for all patients \nwho are discharged to use at home.  \nThe packets can also be used for any family members or neighbours\nhow begin to have diarrhoea.\n❑ For paediatric patients give sufficient zinc to \ncomplete 10 days treatment.\nClinical tools for cholera treatment facilities\nv1.0\nDischarge assessment \nLL] Ensure patients and their caregivers understand \nthat anyone with at least 3 episodes of diarrhoea \nin 24 hours should seek treatment. \nLL] Ensure all patients and their caregivers \nunderstand how to prevent cholera before \ndischarge. \n_] Provide at least 4 packets of ORS for all patients \nwho are discharged to use at home. \nThe packets can also be used for any family members or neighbours \nhow begin to have diarrhoea. \n_] For paediatric patients give sufficient zinc to \ncomplete 10 days treatment. \n@Y World Health YX Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.19188559815474496
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-C",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea severe dehydration shock IV Plan C cholera For severe dehydration in patients aged 12 months or older, admit and start IV Ringer’s lactate immediately: 30 mL/kg over 30 minutes, then 70 mL/kg over 2½ hours. Reassess at least every 15–30 minutes and give ORS for ongoing losses as soon as drinking is safe. Patient-specific volumes require measured weight and clinician oversight.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "severe"
+            },
+            {
+              "field": "age_months",
+              "op": "ge",
+              "value": 12
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "hydration_class",
+          "age_months",
+          "weight_kg"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For severe dehydration in patients aged 12 months or older, admit and start IV Ringer’s lactate immediately: 30 mL/kg over 30 minutes, then 70 mL/kg over 2½ hours. Reassess at least every 15–30 minutes and give ORS for ongoing losses as soon as drinking is safe. Patient-specific volumes require measured weight and clinician oversight.",
+          "medication": {
+            "name": "Ringer’s lactate",
+            "dose": "30 mL/kg then 70 mL/kg",
+            "route": "intravenous",
+            "frequency": "First over 30 minutes; second over 2½ hours",
+            "duration": "Initial 3 hours",
+            "instructions": "Immediate facility-based treatment with reassessment every 15–30 minutes."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_6",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 6,
+            "evidence_passage": "Evaluating dehydration and admission criteria \nSigns Treatment Admit\nSevere\ndehydration \nOne or more danger signs: \n• Lethargic or unconscious \n• Absent or weak pulse \n• Respiratory distress\nOR at least 2 of the following: \n• Sunken eyes \n• Not able to drink or drinks poorly \n• Skin pinch goes back very slowly \nPlan C Yes\nSome\ndehydration \nNo danger signs AND at least 2 of the following: \n• Irritable or restless \n• Sunken eyes \n• Rapid pulse \n• Thirsty (drinks eagerly) \n• Skin pinch goes back slowly \nPlan B Yes\nNo \ndehydration \n• Awake and alert \n• Normal pulse \n• Normal thirst \n• Eyes not sunken \n• Skin pinch normal \nPlan A No\nClinical tools for cholera treatment facilities\nv1.0\nEvaluating dehydration and admission criteria \nSigns Treatment Admit \nSevere One or more danger signs: PlancC Yes \ndehydration ¢ Lethargic or unconscious \n« Absent or weak pulse \n¢ Respiratory distress \nOR at least 2 of the following: \n« Sunken eyes \n¢ Not able to drink or drinks poorly \n¢ Skin pinch goes back very slowly \nSome No danger signs AND at least 2 of the following: PlanB Yes \n2 ¢ Irritable or restless \ndehydration Sunken eyes \n«Rapid pulse \n¢ Thirsty (drinks eagerly) \n¢ Skin pinch goes back slowly \nNo ¢ Awake and alert \n: «Normal pulse \ndehydration ¢ Normal thirst \n- Eyes not sunken \n¢ Skin pinch normal \nYAN @) World Health WY b “vv Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_7",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 7,
+            "evidence_passage": "Treatment for\nSevere dehydration\nStart intravenous fluids immediately\nPlan C\nAge first give 30 mL / kg in then give 70 mL / kg in\nInfants (< 12 months) 1 hour 5 hours\nAll others (12 months +) 30 minutes 2½ hours\nStart intravenous fluid immediately\nRingers lactate is the first choice\nUse large cannulas\nor put 2 IV lines if large volumes are to be \nadministered rapidly\nWrite the start time on the IV bag\nto help track how quickly fluids are being \ngiven\nReassess\nat least every 15 to 30 minutes\nWatch for signs of hypoglycaemia\nand treat rapidly\nGive ORS to replace ongoing losses\nas soon as the patient can drink safely\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSevere dehydration Start intravenous fluids immediately \nPlan C \nAge first give 30 mL/kgin | then give 70 mL/kg in \nInfants (< 12 months) 1 hour 5 hours \nAll others (12 months +) 30 minutes 2¥”2 hours \nStart intravenous fluid immediately \nRingers lactate is the first choice \nUse large cannulas \nor put 2 IV lines if large volumes are to be \nadministered rapidly \nWrite the start time on the IV bag \nto help track how quickly fluids are being \ngiven \n@) World Health Ys Organization \nReassess \nat least every 15 to 30 minutes \nWatch for signs of hypoglycaemia \nand treat rapidly \nGive ORS to replace ongoing losses \nas soon as the patient can drink safely \nZinc - give for 10 days \nIn patients under 6 months, 10mg once per day \nIn patients over 6 months, 20mg once per day \nClinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.13857989210291974
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-ABX",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea antibiotics pregnant elderly severe dehydration cholera Cholera antibiotic eligibility includes severe dehydration OR pregnancy OR elderly status. Pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan. A hydration-only rule is incorrect. This is an indication for clinician medication planning, not an automatic prescription.",
+        "prerequisites": {
+          "any": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "severe"
+            },
+            {
+              "field": "pregnant",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "field": "elderly",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Cholera antibiotic eligibility includes severe dehydration OR pregnancy OR elderly status. Pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan. A hydration-only rule is incorrect. This is an indication for clinician medication planning, not an automatic prescription.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.13436651969957208
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-ABX-ADULT",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea antibiotic single dose pregnant adult cholera For an eligible adult cholera patient, the source lists preferred doxycycline 300 mg as a single dose, or alternative azithromycin 1 g as a single dose. These are alternatives, not a combination. The source passage does not specify route; leave it unknown. Clinician review of allergies and patient-specific suitability is required.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 18
+            },
+            {
+              "any": [
+                {
+                  "field": "hydration_class",
+                  "op": "eq",
+                  "value": "severe"
+                },
+                {
+                  "field": "pregnant",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "field": "elderly",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "age_years",
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [
+          "Antibiotic route not explicitly stated; no numeric elderly threshold supplied."
+        ],
+        "recommended_action": {
+          "text": "For an eligible adult cholera patient, the source lists preferred doxycycline 300 mg as a single dose, or alternative azithromycin 1 g as a single dose. These are alternatives, not a combination. The source passage does not specify route; leave it unknown. Clinician review of allergies and patient-specific suitability is required.",
+          "medication": {
+            "options": [
+              {
+                "name": "Doxycycline",
+                "dose": "300 mg",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Preferred option in this source; clinician review."
+              },
+              {
+                "name": "Azithromycin",
+                "dose": "1 g",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Alternative, not add-on."
+              }
+            ],
+            "combination": false
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.11661549708514253
+    },
+    {
+      "card": {
+        "card_id": "CHOL-INV-02",
+        "disease": "cholera",
+        "category": "investigations",
+        "retrieval_text": "watery diarrhoea reassessment glucose hypoglycaemia cholera In severe dehydration, reassess at least every 15–30 minutes and watch for hypoglycaemia. In some dehydration, reassess at least hourly. If hypoglycaemia is suspected, assess glucose; the quick reference identifies glucose <3.0 mmol/L (54 mg/dL). Do not infer a normal glucose from missing information.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "In severe dehydration, reassess at least every 15–30 minutes and watch for hypoglycaemia. In some dehydration, reassess at least hourly. If hypoglycaemia is suspected, assess glucose; the quick reference identifies glucose <3.0 mmol/L (54 mg/dL). Do not infer a normal glucose from missing information.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_7",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 7,
+            "evidence_passage": "Treatment for\nSevere dehydration\nStart intravenous fluids immediately\nPlan C\nAge first give 30 mL / kg in then give 70 mL / kg in\nInfants (< 12 months) 1 hour 5 hours\nAll others (12 months +) 30 minutes 2½ hours\nStart intravenous fluid immediately\nRingers lactate is the first choice\nUse large cannulas\nor put 2 IV lines if large volumes are to be \nadministered rapidly\nWrite the start time on the IV bag\nto help track how quickly fluids are being \ngiven\nReassess\nat least every 15 to 30 minutes\nWatch for signs of hypoglycaemia\nand treat rapidly\nGive ORS to replace ongoing losses\nas soon as the patient can drink safely\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSevere dehydration Start intravenous fluids immediately \nPlan C \nAge first give 30 mL/kgin | then give 70 mL/kg in \nInfants (< 12 months) 1 hour 5 hours \nAll others (12 months +) 30 minutes 2¥”2 hours \nStart intravenous fluid immediately \nRingers lactate is the first choice \nUse large cannulas \nor put 2 IV lines if large volumes are to be \nadministered rapidly \nWrite the start time on the IV bag \nto help track how quickly fluids are being \ngiven \n@) World Health Ys Organization \nReassess \nat least every 15 to 30 minutes \nWatch for signs of hypoglycaemia \nand treat rapidly \nGive ORS to replace ongoing losses \nas soon as the patient can drink safely \nZinc - give for 10 days \nIn patients under 6 months, 10mg once per day \nIn patients over 6 months, 20mg once per day \nClinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_13",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 13,
+            "evidence_passage": "Recheck\nglucose\nRinger’s lactate (800 mL)\n+ 50% dextrose (200 mL)\n5 mL / kg / hour\n2nd bolus\nif necessary\nDextrose 10%\nMaintenance\ndextrose\ninfusion in RL\n(if recurrent\nhypoglycaemia)\nRinger’s lactate (800 mL)\n+ 50% dextrose (200 mL)\n50 mL / hour\nDextrose 50%\n25–50 mL\niv over 2 minutes\nHypoglycaemia quick reference\nAdults\nafter\n30 mins\n2nd bolus\nif necessary\nDextrose\nMaintenance\ndextrose\ninfusion in RL\n(if recurrent\nhypoglycaemia)\n+\nChildren\nRecheck\nglucose\nafter\n30 mins\n10%\nIf no intravenous access, 2-5ml 50% dextrose fluid can be placed\ndirectly the cheek using a syringe. Do not use a needle or spoon.\nDextrose 10%\n125–250 mL\n50%\n 10%\n50%\nRL\nDextrose 10%\n5 mL / kg\n10%\nintravenous\nover 2 minutes\n10%\n+\n 50%\nRL\nor\n50%\nGlucose less\nthan\n3.0 mmol / L\n54 mg / dL\nrecheck\nGlucose less\nthan\n3.0 mmol / L\n54 mg / dL\nrecheck\nReferences (scan QR code)\n1) WHO-ICRC Basic Emergency Care\n2) Pocket book of hospital care for children\n10%\nClinical tools for cholera treatment facilities\nv1.0 \nHypoglycaemia quick reference \nAdults \nGlucose less — )Y e=s [( ) \nthan Dextrose 50% @ Oo \n3.0 mmol/L 50%} 25-50 mL ' \n54 mg/dL \\ = or _ > <—. \n-— Dextrose 10% | after \n10%! 125-250 mL 30 mins | Recheck \ny, \n/ \\ T iv over 2 minutes _ Biucose S recheck \n( Maintenance al Ge 7 r — \ndextrose ue Dextrose = [__ \nInfusion in RL Ringer’s lactate (800 mL) 24 bolus 10% \n(if recurrent + 50% dextrose (200 mL) w necessary TT \n\\_ hypoglycaemia) 50 mL yout \n2 Children a \nGlucose less *? ~~ \n5.0 mmol/l o~ Dextrose 10% > O \naa ne | intravenous \nover 2 minutes J 30mins Recheck \nglucose \nrecheck \\ / \n( Maintenance . Soon \\Z \ndextrose . 50% Dextrose 10% L_ \ninfusion in RL Ringer’s lactate (800 mL) 2\"¢ bolus 10% \n(if recurrent + 50% dextrose (200 mL) if necessary ; h l ia) Ne y, \\_ TyPoBtycaemia 5 mL/kg /hour \n(aN World Health \nWs) Organization If no intravenous access, 2-5ml 50% dextrose fluid can be placed References (scan QR code) \ndirectly the cheek using a syringe. Do not use a needle or spoon. 1) WHO-ICRC Basic Emergency Care 7 “hs Clinical tools for cholera treatment facilities \nv1.0 \n2) Pocket book of hospital care for children ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.10962153914700981
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-B",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea some dehydration ORS Plan B cholera For some dehydration, use supervised Plan B: ORS over four hours (75 mL/kg stated on page 5), with additional ORS for ongoing losses and reassessment at least hourly. Check measured weight and oral tolerance; age/weight tables on pages 5 and 9 differ at some boundaries and should not be merged silently.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "some"
+            },
+            {
+              "field": "can_drink_safely",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "hydration_class",
+          "can_drink_safely",
+          "weight_kg"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For some dehydration, use supervised Plan B: ORS over four hours (75 mL/kg stated on page 5), with additional ORS for ongoing losses and reassessment at least hourly. Check measured weight and oral tolerance; age/weight tables on pages 5 and 9 differ at some boundaries and should not be merged silently.",
+          "medication": {
+            "name": "ORS",
+            "dose": "75 mL/kg over 4 hours; additional replacement for ongoing losses",
+            "route": "oral",
+            "frequency": "Over 4 hours with at least hourly reassessment",
+            "duration": "Initial 4-hour rehydration period",
+            "instructions": "Supervised Plan B; preserve source table discrepancies."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.1091013428249426
+    },
+    {
+      "card": {
+        "card_id": "DEN-ADV-02",
+        "disease": "dengue",
+        "category": "advice",
+        "retrieval_text": "fever warning follow up danger return dengue Review home-managed patients daily with CBC; continue follow-up until afebrile for 24–48 hours with stable clinical parameters. Settling fever is not itself recovery. Return immediately for clinical deterioration, inability to tolerate oral fluids, severe abdominal pain, lethargy/restlessness, bleeding, reduced urine, cold clammy extremities or difficulty breathing.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Review home-managed patients daily with CBC; continue follow-up until afebrile for 24–48 hours with stable clinical parameters. Settling fever is not itself recovery. Return immediately for clinical deterioration, inability to tolerate oral fluids, severe abdominal pain, lethargy/restlessness, bleeding, reduced urine, cold clammy extremities or difficulty breathing.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_28",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 28,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 28  \n(A) Undifferentiated macular or maculopapular rash may occur over the face, thorax, abdomen, and \nextremities during the acute phase of dengue. The rash is typically macular or maculopapular \nand may be associated with pruritus. \n(B) Convalescent rash  is characterized by confluent  erythematous eruption with sparing areas of \nnormal skin. It is often pruritic. The rash typically occurs within one to two days of \ndefervescence and lasts one to five days. \n \n \nFigure13: Isles of White in the Sea of Red. \n \nWarning signs of dengue fever: (CDC 2024) \n• Intense continuous abdominal pain or pain when palpating abdomen \n• Persistent vomiting (≥3 episodes in 1 hr or ≥4 in 6 hrs) \n• Fluid accumulation (pleural effusion, ascites, or pericardial effusion) \n• Mucosal bleeding (gums, nose, vagina [metrorrhagia or hypermenorrhea], \nkidney [macroscopic hematuria]) \n• Altered mental status (irritability, drowsiness, Glasgow Coma Scale score <15) \n• Hepatomegaly (≥2cm below costal margin) \n• Progressive increase of the haematocrit (in at least 2 consecutive measurements \ntaken 6 hours apart \n \n3.1.2.3 Dengue Haemorrhage Fever (DHF) \nDHF occurs in a small proportion of patients with dengue infection. Most DHF patients present with \nacute onset of high fever and associated symptoms similar to DF in the early febrile phase. Plasma \nleakage and abnormal hemostasis are the hallmarks of DHF which usually occurs around the \ndefervescence (settling of fever). There is a possibility of developing shock (dengue shock syndrome) \nif the leakage is severe or due to significant bleeding in addition to leakage. Therefore, patients with \nprobable dengue illness should be closely monitored as it can develop DHF with time. For efficient \nmanagement of DHF it is important to understand its natural history and its dynamic nature. Clinical \ncourse of DHF is stereotypic and consists of three phases: \n• Febrile phase \n• Critical phase (leakage phase) \n• Convalescent phase \n \nNote: Equilibrium phase is seen in some cases after critical phase ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_47",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 47,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 47  \nNote: \n➢It is important to understand that vital signs and other parameters may be influenced by \ncomorbidities and high-risk conditions (e.g., urine output in diabetes). \n➢Settling of fever is not a sign of recovery. Some patients will start plasma leakage around \ndefervescence. \nFever Warning \nSigns (WS) \nComorbid \ncondition/High \nrisk for severe \ndisease/Advers\ne Social \ncondition \nVital \nSigns \n(VS) & \nUrinary \noutput \n(UOP) \nFresh CBC \nFinding \nPatient Risk \nStatus at \nthe Time of \nAssessment \nHospitalization \nShort \nduration \nof fever \n(or \nfever \nwithin \nlast ≤48 \nhours) \nAbsent \nWS \nAbsent Normal \nVS \n& \nNormal \nUOP \nWBC low \n(Leucopenia) \nPlatelet \n≥100x109/L \nHct: 35-40% \nor baseline \nNo \nimmediate \nrisk \nHome \nmanagement as \nwell as followed \nup and assessed \nregularly. \nPresent \nWS \nPresent Derange \nVS \nReduced \nUOP \nWBC: \ndecreasing \nPlatelet \n≤100x109/L \nIncreasing \nHct: Leaking \nDecreasing \nHct: Bleeding \nHigh risk. Inpatient \nmanagement \nTable 7: Showing dengue patients who need inpatient/outpatient management. \n \nHome management of patients: \nPatients without warning signs or  coexisting conditions or social risk should get home based care \nthrough a register of dengue patient. \n \nRecommended measures in home management: \n● Adequate physical rest in comfortable clothing, and preferably under a mosquito net \n● Control of temperature \n Tepid sponging for fever \n Do not exceed 3 gm/day of paracetamol. (60mg/kg/24hrs in child) \n Warn the patient that the fever may not fully settle with paracetamol and advise not to \ntake excess. \n● Adequate Hydration \n Ensure adequate oral fluid  intake of around 2400 ml for 24 hours (if the body weight is \nless than 50kg, give fluids as 2ml/kg/hour for 24 hours) and it is better to spread this \namount of fluid across the day. \n This should consist of fluid such as ORS, green coconut water, other fruit juices or soup \nwhich has electrolytes rather than plain water \n● Ensure adequate urine output. (Encourage to pass urine every 3 -4 hours). It is useful to \nmeasure the urine output, if possible, and document with time, as any reduction in urine \noutput can be easily identified. \n● Patient should be informed about warning sign. (page 28) \n ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_48",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 48,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 48  \n● If the appetite is good, patients encouraged to take light and nutritious food. \n● If the patient’s appetite is poor, forced feeding should not be done, as taking adequate \namounts of liquid is sufficient during illness. \n● It is advisable to avoid red/ brown (i.e. dark) colored food (red dragon fruit, beet root)/ \nbeverages to avoid confusion with blood-stained vomitus/ melaena) \n● Anti-emetics and PPI/H2 receptor blockers if necessary. \n● Avoid all NSAIDS (including COX-2 inhibitors) and steroids. \n● Temporally withhold warfarin, aspirin, clopidogrel & dipyridamole, in patients who take \nthese on long term basis. Take expert opinion where these drugs are necessary. \n \nFollow up plan of home management \n• Review daily with CBC. First CBC should be done at least at the beginning of the third day of \nfever/illness (preferably with SGOT and SGPT). \n• These patients should be followed up until the patient become afebrile for 24-48 hours with \nstable clinical parameters. Usually, by seven days, most patients recover. \n• If any indication for hospitalization appears within this follow up period, patient should get \nadmitted to hospital. \n \n \n \n \n \n \n \nIndications for immediate return for review / hospitalization \nAdvise patients to return to the hospital immediately, if they develop any of the following conditions: \n• Clinical deterioration with settling of fever \n• Inability to tolerate oral fluids \n• Severe abdominal pain \n• Lethargy or irritability / restlessness \nBleeding tendency like abnormal vaginal bleeding, blood vomiting, black tarry stool, bleeding from \nnose and gum. \nReduced urine output for the last 4-6 hours (<150-200 ml/ 4-6 hours if weight is 50kg or more) \n● Cold and clammy extremities \n● Difficulty in breathing. \n \nBefore transferring a patient from OPD to ward or another hospital after initial evaluation: \nFollowing measures to be taken strictly \n● Patient should be stabilized. \n● All clinical findings, investigation results and treatment given should be clearly documented \nand sent with the patient. \n● Reasons for transfer should be clearly documented in the transfer form \n● Before transferring, the patient’s condition should be briefed with the relevant management \nteam of the hospital where the patient is being transferred. \nNote: Written instruction to the patient/carer giver will be provided in Bengali regarding \nmanagement of the patient. Instructions will be given in Bengali about investigations timing and \nhow and when they can communicate with physician either physically or phone call/WhatsApp. \n(Instructions of patient/caregiver is in annexure). ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.09344627164213554
+    },
+    {
+      "card": {
+        "card_id": "CHIK-ADV-01",
+        "disease": "chikungunya",
+        "category": "advice",
+        "retrieval_text": "fever joint pain self care rest cold compress chikungunya Rest and avoid exertion during acute illness; cold compresses may help joint symptoms, while heat may worsen acute joint pain. Mild exercise and physiotherapy are for recovery. Maintain appropriate fluids. Avoid self-medication with aspirin or NSAIDs.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Rest and avoid exertion during acute illness; cold compresses may help joint symptoms, while heat may worsen acute joint pain. Mild exercise and physiotherapy are for recovery. Maintain appropriate fluids. Avoid self-medication with aspirin or NSAIDs.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.09125030963797673
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-C-INF",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea infant severe dehydration IV Plan C cholera For severe dehydration in infants younger than 12 months, admit and start IV Ringer’s lactate immediately: 30 mL/kg over one hour, then 70 mL/kg over five hours. Reassess at least every 15–30 minutes. Do not use the older-patient infusion timing.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "severe"
+            },
+            {
+              "field": "age_months",
+              "op": "lt",
+              "value": 12
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "hydration_class",
+          "age_months",
+          "weight_kg"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For severe dehydration in infants younger than 12 months, admit and start IV Ringer’s lactate immediately: 30 mL/kg over one hour, then 70 mL/kg over five hours. Reassess at least every 15–30 minutes. Do not use the older-patient infusion timing.",
+          "medication": {
+            "name": "Ringer’s lactate",
+            "dose": "30 mL/kg then 70 mL/kg",
+            "route": "intravenous",
+            "frequency": "First over 1 hour; second over 5 hours",
+            "duration": "Initial 6 hours",
+            "instructions": "Facility-based; urgent clinician oversight."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_6",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 6,
+            "evidence_passage": "Evaluating dehydration and admission criteria \nSigns Treatment Admit\nSevere\ndehydration \nOne or more danger signs: \n• Lethargic or unconscious \n• Absent or weak pulse \n• Respiratory distress\nOR at least 2 of the following: \n• Sunken eyes \n• Not able to drink or drinks poorly \n• Skin pinch goes back very slowly \nPlan C Yes\nSome\ndehydration \nNo danger signs AND at least 2 of the following: \n• Irritable or restless \n• Sunken eyes \n• Rapid pulse \n• Thirsty (drinks eagerly) \n• Skin pinch goes back slowly \nPlan B Yes\nNo \ndehydration \n• Awake and alert \n• Normal pulse \n• Normal thirst \n• Eyes not sunken \n• Skin pinch normal \nPlan A No\nClinical tools for cholera treatment facilities\nv1.0\nEvaluating dehydration and admission criteria \nSigns Treatment Admit \nSevere One or more danger signs: PlancC Yes \ndehydration ¢ Lethargic or unconscious \n« Absent or weak pulse \n¢ Respiratory distress \nOR at least 2 of the following: \n« Sunken eyes \n¢ Not able to drink or drinks poorly \n¢ Skin pinch goes back very slowly \nSome No danger signs AND at least 2 of the following: PlanB Yes \n2 ¢ Irritable or restless \ndehydration Sunken eyes \n«Rapid pulse \n¢ Thirsty (drinks eagerly) \n¢ Skin pinch goes back slowly \nNo ¢ Awake and alert \n: «Normal pulse \ndehydration ¢ Normal thirst \n- Eyes not sunken \n¢ Skin pinch normal \nYAN @) World Health WY b “vv Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_7",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 7,
+            "evidence_passage": "Treatment for\nSevere dehydration\nStart intravenous fluids immediately\nPlan C\nAge first give 30 mL / kg in then give 70 mL / kg in\nInfants (< 12 months) 1 hour 5 hours\nAll others (12 months +) 30 minutes 2½ hours\nStart intravenous fluid immediately\nRingers lactate is the first choice\nUse large cannulas\nor put 2 IV lines if large volumes are to be \nadministered rapidly\nWrite the start time on the IV bag\nto help track how quickly fluids are being \ngiven\nReassess\nat least every 15 to 30 minutes\nWatch for signs of hypoglycaemia\nand treat rapidly\nGive ORS to replace ongoing losses\nas soon as the patient can drink safely\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSevere dehydration Start intravenous fluids immediately \nPlan C \nAge first give 30 mL/kgin | then give 70 mL/kg in \nInfants (< 12 months) 1 hour 5 hours \nAll others (12 months +) 30 minutes 2¥”2 hours \nStart intravenous fluid immediately \nRingers lactate is the first choice \nUse large cannulas \nor put 2 IV lines if large volumes are to be \nadministered rapidly \nWrite the start time on the IV bag \nto help track how quickly fluids are being \ngiven \n@) World Health Ys Organization \nReassess \nat least every 15 to 30 minutes \nWatch for signs of hypoglycaemia \nand treat rapidly \nGive ORS to replace ongoing losses \nas soon as the patient can drink safely \nZinc - give for 10 days \nIn patients under 6 months, 10mg once per day \nIn patients over 6 months, 20mg once per day \nClinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.09106972865254484
+    },
+    {
+      "card": {
+        "card_id": "CHOL-MED-A",
+        "disease": "cholera",
+        "category": "medication_planning",
+        "retrieval_text": "watery diarrhoea no dehydration ORS adult Plan A cholera For no dehydration in patients aged 10 years or older, give ORS after each loose stool: as much as wanted. Provide enough ORS packets for 2 L/day. The 2 L/day figure concerns packet supply, not a ceiling on replacement. Do not substitute the page-5 Plan-A timing label for the explicit per-stool instruction on page 11.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "hydration_class",
+              "op": "eq",
+              "value": "none"
+            },
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 10
+            },
+            {
+              "field": "can_drink_safely",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "hydration_class",
+          "age_years",
+          "can_drink_safely"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For no dehydration in patients aged 10 years or older, give ORS after each loose stool: as much as wanted. Provide enough ORS packets for 2 L/day. The 2 L/day figure concerns packet supply, not a ceiling on replacement. Do not substitute the page-5 Plan-A timing label for the explicit per-stool instruction on page 11.",
+          "medication": {
+            "name": "Oral rehydration solution (ORS)",
+            "dose": "As much as wanted",
+            "route": "oral",
+            "frequency": "After each loose stool",
+            "duration": null,
+            "instructions": "Supply enough packets for 2 L/day for age ≥10; not a fluid ceiling."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.08950027966513004
+    },
+    {
+      "card": {
+        "card_id": "DEN-DX-01",
+        "disease": "dengue",
+        "category": "probable_diagnosis",
+        "retrieval_text": "জ্বর মাথাব্যথা চোখের পেছনে ব্যথা গায়ে ব্যথা র‍্যাশ fever headache rash joint pain dengue Consider dengue in acute febrile illness with compatible features such as severe headache, retro-orbital pain, myalgia, arthralgia, rash, nausea or vomiting. Symptoms alone support suspected dengue, not laboratory confirmation. Show the supporting findings and consider chikungunya among alternatives.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Consider dengue in acute febrile illness with compatible features such as severe headache, retro-orbital pain, myalgia, arthralgia, rash, nausea or vomiting. Symptoms alone support suspected dengue, not laboratory confirmation. Show the supporting findings and consider chikungunya among alternatives.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_27",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 27,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 27  \n3.1.2.2 Classical Dengue fever (DF) \nA proportion of patients infected with dengue virus develop classical dengue fever characterized by \nhigh fever, severe headache, retro -orbital pain, myalgia, arthralgia and rashes. Leucopenia and \nthrombocytopenia are usually observed. Although DF is usually benign, it could be an incapacitating \ndisease due to severe headache and musculo-skeletal pains (break-bone fever). Occasionally, unusual \nhaemorrhage such as gastrointestinal bleeding, hypermenorrhea and massive epistaxis may occur. \n \nFever \n• Sudden onset, high grade, continued. \n• The body temperature is usually between 39 °C and 40 °C (102° F to 104° F). \n• The fever may be biphasic, lasting 2–7 days in the majority of cases. \n \nRash \nfirst 2 to 3 days - Diffuse flushing or blanching erythema may be seen on the face, neck and chest \n \nThird and fourth day - a conspicuous rash that may be maculo-papular or rubelliform. \n \nAfebrile period or defervescence - Some patients have a confluent erythematous or petechial rash \nwith small areas of normal skin, described as “isles of white in the sea of red” may appear over the \ndorsum of the feet, on the legs and on the hands and arms. Skin itching may be observed. \n \nRash in dengue fever: \n \n \nFigure 12: Dengue rash \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_37",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 37,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 37  \n3.2 Differential Diagnosis of Dengue Fever \n \nFever that has similar clinical feature of dengue like fever, rash, body ache, headache are its \ndifferential diagnosis. Clinical presentation of following infections has similarity with dengue fever: \nInfection by \nArboviruses: Chikungunya virus, Zika virus \nOther Viral Infection:  Measles, rubella and other viral exanthems, Epstein -Barr virus (EBV), \nEnteroviruses, Influenza, Hepatitis A, Hanta virus. \nBacterial diseases:  Meningococcemia, Leptospira, Enteric fever, Melioidosis, Rickettsial disease, \nScarlet fever, Sepsis. \nParasitic Disease: Malaria. \nDengue, Chikungunya and Zika \nDengue, chikungunya, and Zika are all mosquito-borne viral diseases that can cause similar symptoms, \nsuch as fever, headaches, muscle and joint pain. \nClinical signs and symptoms and laboatory findings to differentiate dengue, zika and \nchikungunya. \n \n \n \n \nTable 2: Table showing clinical differentiation among dengue, chikungunya and zika. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.08307408008107876
+    },
+    {
+      "card": {
+        "card_id": "CHIK-MED-01",
+        "disease": "chikungunya",
+        "category": "medication_planning",
+        "retrieval_text": "fever joint pain paracetamol dose chikungunya For an adult during fever with no pre-existing liver or kidney disease, the 2017 source lists paracetamol tablets up to 1000 mg four times daily. This is not the dengue policy: if dengue remains a possibility, do not automatically apply this higher maximum; use the more restrictive dengue guidance while dengue is not ruled out. Duration is not explicitly supplied.",
+        "prerequisites": {
+          "all": [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 18
+            },
+            {
+              "field": "liver_disease",
+              "op": "eq",
+              "value": false
+            },
+            {
+              "field": "kidney_disease",
+              "op": "eq",
+              "value": false
+            },
+            {
+              "field": "dengue_excluded",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exclusions": [],
+        "required_patient_fields": [
+          "age_years",
+          "liver_disease",
+          "kidney_disease",
+          "dengue_excluded",
+          "allergies",
+          "current_medicines"
+        ],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "For an adult during fever with no pre-existing liver or kidney disease, the 2017 source lists paracetamol tablets up to 1000 mg four times daily. This is not the dengue policy: if dengue remains a possibility, do not automatically apply this higher maximum; use the more restrictive dengue guidance while dengue is not ruled out. Duration is not explicitly supplied.",
+          "medication": {
+            "name": "Paracetamol tablets",
+            "dose": "Up to 1000 mg",
+            "route": "oral (tablet)",
+            "frequency": "Up to four times daily",
+            "duration": null,
+            "instructions": "Only with no pre-existing liver/kidney disease; do not transfer this maximum to suspected dengue."
+          }
+        },
+        "sources": [
+          {
+            "source_id": "chikungunya_pdf_18",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 18,
+            "evidence_passage": "18 \n \n The viruses can circulate in the same area and cause occasional co -\ninfections in the same patient \n Chikungunya virus more likely to cause high fever, severe  \npolyarthralgia, arthritis, rash, and   lymphopenia \n Dengue virus more likely to cause neutropenia, thrombocytopenia, \nhemorrhage, shock, and death \n Patients with suspected chikungunya should be managed as dengue \nuntil dengue has been ruled out \n Proper clinica l management of dengue reduces the risk of medical \ncomplications and death \n Aspirin and other NSAIDs can increase the risk of hemorrhage in \npatients with dengue  \nPrinciples of Management \nMild and moderate cases can be managed at home. Severe cases should be  \nmanaged at hospital.  \nA. Home Management \n Consume plenty of water with electrolytes (approximately 2 litres of home \navailable fluids with salt in 24 hours).  \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Adequate rest in a warm environment \n Cold compresses may help in reducing joint damage. Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage. \n Refrain from exertion. Mild forms of exercise and physiotherapy are \nrecommended in recovering persons. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "chikungunya_pdf_19",
+            "title": "National Guideline on Clinical Management of Chikungunya Fever",
+            "version": "15 May 2017",
+            "pdf_page": 19,
+            "evidence_passage": "19 \n \n Avoid self medication with aspirin or NSAIDs. \n Antihistamines can be used for itching. \n \nB. Admission criteria \n1. If the  person is hemo-dynamically u nstable (frequent syncopal attacks, \nhypotension with a systolic BP less than 90 mmHg or a pulse pressure less \nthan 30 mmHg), \n2. oliguria (urine output less than 500 ml in 24 hours),  \n3. altered sensorium  \n4. bleeding manifestations \n5. persons not responding or having persistent joint pain or  disabling arthritis \neven after three days of symptomatic  treatment \n6. persons above sixty years  \n7.  infants (below one year of age) \n8. Pregnancy \n9. High risk Group \n \nC. Hospital management \n Assess for dehydration and  institute proper rehydration therapy.  (5% DNS, \nNormal Saline, & baby saline for paediatric cases) \n Take paracetamol tablets during periods of fever (up to 1000 mg tablets four \ntimes daily), in persons with no preexisting liver or kidney disease. Children \nmay be given 50-60 mg per kg body weight per day in divided doses. \n Antibiotics can be used to treat secondary bacterial infection. \n Antihistamines can be used for itching. \n Cold compresses may help in reducing joint damage.Heat may \nincrease/worsen joint pain and is therefore best to avoid during acute stage.  \n Refrain from exertion.  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.07959809298697716
+    },
+    {
+      "card": {
+        "card_id": "HTN-INV-01",
+        "disease": "hypertension",
+        "category": "investigations",
+        "retrieval_text": "high BP history examination confirmation hypertension Assess BP measurement history, current/past antihypertensives, adherence, side effects, cardiovascular risks, comorbidities and organ-damage symptoms. Examine and compare arm BPs. Investigations can begin while diagnosis is being confirmed.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Assess BP measurement history, current/past antihypertensives, adherence, side effects, cardiovascular risks, comorbidities and organ-damage symptoms. Examine and compare arm BPs. Investigations can begin while diagnosis is being confirmed.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "hypertension_pdf_46",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 46,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n15 \n \nChapter -4 \n4. Diagnosis and assessment of pa�ents with hypertension \n \n4.1 Diagnosis  \n \nThe diagnosis of hypertension should be based on mul �ple blood pressure measurements, \ntaken on separate occasions over a period. BP can be highly variable; th us, the diagnosis of \nhypertension should not be based on a single set of BP readings at a si ngle oﬃce visit. In \ngeneral, the diagnosis of hypertension should be based on at least th ree blood pressure \nmeasurements per visit and at least two to three visits at 14-wee k intervals (depending on \nthe BP level) to conﬁrm the diagnosis of hypertension9. \n \nThe diagnosis might be made on a single visit, if BP is ≥160/100 mmHg or there is \naccompanying evidence of hypertension mediated organ damage (HMOD) (e.g., hypertensive \nre�nopathy with exudates and hemorrhages, or LVH, or vascular or renal damage) 10. When \nthe ini�al SBP is between 140 and 159 mmHg, or the DBP is between 90 and 99 mmHg, repeat \nmeasurements should be performed on three separate occasions w ithin a period of 1 to 4 \nweeks to determine whether a diagnosis of hypertension is valid. Al l measurements should \nbe taken in the same arm.  If possible and available, the diagnosis of hypertension should be \nconﬁrmed by out-of-oﬃce BP measurement (i.e., HBPM and/or ABPM)9. \n \nIn the ini�al evalua�on, measurement of blood pressure should be performed in both arms. \nIf the diﬀerence in readings between arms is more than 10 mmHg, repeat the measurements \nat 1-2 mins interval. If the diﬀerence in readings between arms remains more than 10 mmHg \non the second measurement, measure subsequent blood pressures in the arm with the higher \nreading and it should be noted. If the diﬀerence is >20 mmHg, consider further inves�ga�on9. \nIf hypertension is not diagnosed, measure the person's clinic blood pressure at least every 3 \nyears subsequently, and consider measuring it more frequently if the person's clinic blood \npressure is close to 140/90 mmHg (Table 3). \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_48",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 48,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n17 \n \n4.2 Clinical evalua�on and assessment of hypertension \n4.2.1 Clinical evalua�on: \nThe goals of the ini�al evalua�on of the hypertensive pa�ent are to  \n1. Establish the diagnosis and grade of hypertension.  \n2. Screening for poten�al secondary causes of hypertension.  \n3. Iden�fy factors that poten�ally contribute to development of hypertension (lifestyle, \nconcomitant medica�ons, or family history).  \n4. Iden�fy concomitant CV risk factors (including lifestyle and family history) (Table 4) \n5. Iden�fy concomitant diseases and establish whether there is evidence of HMOD or \nexis�ng cardiovascular, cerebrovascular, or renal disease. (Table 5)  \nThese goals are usually accomplished by a thorough medical history, physical examina�on, \nand simple laboratory inves�ga�ons. While wai�ng for conﬁrma�on of a diagnosis of \nhypertension, carry out some rou�ne inves�ga�ons for assessment of HMOD. If \nhypertension is not diagnosed but there is evidence of HMOD, consider carrying out \ninves�ga�ons for alterna�ve causes of HMOD. \n \nHistory \nMost pa�ents with hypertension are asymptoma�c, the high blood pressure usually having \nbeen noted during an incidental clinical examina �on. A propor �on of pa �ents will present \nwith a major complica�on of hypertension such as stroke or myocardial infarc�on, but only a \nsmall number will present with symptoms directly a �ributable to hypertension such as \nbreathlessness or headache. That is why hypertension is called a Silent killer. The key issues \nthat need to be addressed in the history include:\n  \nRisk factors assessment: \n* Family and personal history of hypertension, CVD, stroke, or renal disease.  \n* Family and personal history of associated risk factors (e.g., familial \nhypercholesterolaemia) \n* Dietary history and salt intake \n* Smoking history \n* Alcohol consump�on \n* History of physical exercise/sedentary lifestyle \n* History of erec�le dysfunc�on ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_49",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 49,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n18 \n \n Sleep history, snoring, sleep apnoea (informa�on also from partner) \n Previous hypertension in pregnancy/pre-eclampsia \n History of oral contracep�ve use. \nHistory of symptoms of HMOD, CVD, stroke, and renal disease \n For Brain and eyes:  headache, ver�go, syncope, impaired vision, TIA, sensory or motor \ndeﬁcit, stroke, caro �d revasculariza �on, cogni �ve impairment, demen �a (in the \nelderly). \n Heart: chest pain, shortness of breath, oedema, myocardial i nfarc�on, coronary \nrevasculariza�on, syncope, history of palpita �ons, arrhythmias (especially AF), heart \nfailure \n Kidney: thirst, polyuria, nocturia, haematuria, urinary tract infec�ons. \n Peripheral arteries: cold extremi �es, intermi �ent claudica �on, pain free walking \ndistance, pain at rest, peripheral revasculariza �on, pa �ent or family history of CKD \n(e.g., polycys�c kidney disease). \nHistory of An�hypertensive Drug Treatment \n Current/past an�hypertensive medica�on including eﬀec�veness, intolerance or \nside eﬀects of previous medica�ons. \n Adherence to therapy and in non-compliant pa �ents the reason behind it (incl uding \nﬁnancial constraint). \n \nPhysical Examina�on \nThe physical examina�on should include the following: \n Weight and height measured on a calibrated scale, with calcula�on of BMI \n Waist circumference \n Neurological examina�on and cogni�ve status \n Fundoscopic examina�on for hypertensive re�nopathy \n Palpa�on and ausculta�on of heart and caro�d arteries \n Palpa�on of peripheral arteries \n Comparison of BP in both arms (at least once) \n Skin inspec�on: cafe-au-lait patches of neuroﬁbromatosis (phaeochromocytoma) \n Kidney palpa�on for signs of renal enlargement in polycys�c kidney disease ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "hypertension_pdf_50",
+            "title": "National Guideline on Hypertension, Bangladesh",
+            "version": "2nd edition, November 2023",
+            "pdf_page": 50,
+            "evidence_passage": " \n \nNa�onal Guideline on Hypertension Bangladesh \n19 \n \n Ausculta�on of heart and renal arteries for murmurs or bruits indica�ve of aor�c \ncoarcta�on, or renal artery stenosis  \n Comparison of radial with femoral pulse: to detect radio-femoral delay in aor�c \ncoarcta�on \n Signs of Cushings disease or acromegaly \n Signs of thyroid disease \nTable 4: Major risk factors for cardiovascular diseases  \n Levels of SBP and DBP \n Tobacco use \n Dyslipidemia \no Total cholesterol >5.1 mmol/L \no LDL >3 mmol/l, OR \no HDL <1 (men) and <1.2 mmol/l (women) \n Diabetes mellitus \n Age (>55 years for men, >65 years for women) \n Family history of premature cardiovascular diseases \no (men <55 years or women <65 years) \n Central obesity  \no (Waist circumference >90 cm for men, >80 cm for women) \n \nTable 5:  Manifesta�ons of hypertension mediated organ damage (HMOD)  \nOrgan system Manifesta�ons & their sugges�ve signs \nCardiac Le� ventricular hypertrophy, coronary heart disease, heart \nfailure \n forcible and displaced apex beat \n accentua�on of the aor�c component of the second \nheart sound  \n abnormal cardiac rhythms  \n S4 (decreased ventricular compliance)  \n ventricular gallop  \n pulmonary rales or crackles  \nCerebrovascular Transient ischaemic a�ack, stroke \n caro�d bruits; motor or sensory defects;  \nPeripheral \nvasculature \n Absence of one or more major pulses in extremi�es \n(except dorsalis pedis) with or without intermi�ent \nclaudica�on \nRenal  GFR <60 ml/min/1.73 m2  \n proteinuria (1+ or greater) \n microalbuminuria (2 out of 3 posi�ve tests over a \nperiod of 4-6 months) \n Dependent (leg) edema \nRe�nopathy Fundoscopic abnormali�es  \n- Haemorrhages or exudates, with or without papilloedema \n  ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.07587440598804802
+    },
+    {
+      "card": {
+        "card_id": "DEN-INV-03",
+        "disease": "dengue",
+        "category": "investigations",
+        "retrieval_text": "fever assess missing information dengue Establish illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, comorbidities and high-risk/social circumstances. Examine mental status, hydration and haemodynamics before selecting home management.",
+        "prerequisites": {
+          "all": []
+        },
+        "exclusions": [],
+        "required_patient_fields": [],
+        "missing_information": [],
+        "recommended_action": {
+          "text": "Establish illness day, last fever time, oral intake, warning signs, bleeding, urine output, medicines, comorbidities and high-risk/social circumstances. Examine mental status, hydration and haemodynamics before selecting home management.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "dengue_pdf_45",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 45,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 45  \nChapter-5 \n5.1 Dengue Case Definition \nSuspected case: Acute febrile illness meeting clinical dengue criteria without confirmatory tests. \nProbable Case: Acute febrile illness with serological diagnosis. \nConfirmed Case: Laboratory confirmation through any one of the followings \n• Positive RT-PCR or NS1 antigen test \n• Positive immunohistochemistry from necropsy tissues \n• Seroconversion (negative to positive IgM/IgG in paired sera) \n• Fourfold rise in IgG in paired sera samples. \n \nSeverity Classification: \nDengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, \nrash, aches and pains, positive tourniquet tests, or leucopenia (WBC <5000/mm3) \n \nDengue with warning signs: Dengue fever with any one of the warning signs. (page 28) \nSevere Dengue: \n• Severe plasma leakage leading to shock (DSS) or fluid accumulation causing respiratory \ndistress. \n• Severe bleeding as per clinical evaluation \n• Severe organ involvement (e.g. elevated AST/AST≥ 1000iu/L, impaired consciousness, \nor organ failure. \n \n5.2 Outpatient Assessment and Management of a Patient with Dengue \nFever. \n \nOut-Patient Department: \nFever Corner - A triage center for febrile patients \nFever corner should consist of a Triage Desk where fever patients will be registered and assessed \nbased on duration of fever. \n• Then the patients can be seen by medical officers and managed accordingly. \n \nIn the present hyper-endemic setting in Bangladesh, dengue illness (DF and DHF) should be \nconsidered in any patient presenting with an acute febrile illness. Clinical evaluation of dengue is \nbased on symptoms and signs. Basic investigations depend on day of illness. CBC and NS1 Ag up to \nday 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis. \n \nStepwise approach on outpatient management on dengue History: \n \n• Date of onset of fever/ illness \n• Date and time of last episode of fever \n• Oral intake \n• Warning signs \n• Diarrhoea \n• Bleeding including menstrual bleeding \n• Change in mental status /seizure /dizziness \n• Urine output (frequency, volume and time of last voiding) \n• Other important relevant histories: drug history, comorbidities. ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "dengue_pdf_46",
+            "title": "National Guideline for Clinical Management of Dengue",
+            "version": "5th edition, 2025",
+            "pdf_page": 46,
+            "evidence_passage": "National Guideline for Clinical Management of Dengue                 46  \nPhysical examination: \n• Mental status \n• Hydration status \n• Haemodynamic status \n• Tachypnoea/ acidotic breathing/ pleural effusion \n• Abdominal tenderness/ hepatomegaly/ ascites \n• Bleeding manifestation \n \nInvestigation: \n• CBC and Hct \n• NS-1 \n• SGPT/SGOT \n• CRP (level 4) \nBesides checking clinical and lab parameter of dengue, proper history to be taken on comorbid \ncondition, high risk for severe disease and adverse social condition of the patients. \n \nPatients at high risk for more severe disease and its complications may need admission \neven without the above criteria. \n Pregnant women \n Elderly \n Obesity \n Patients on anticoagulants \n \nPatients with comorbid conditions: \n Diabetes mellitus \n Hypertension \n Chronic renal failure \n Established liver disease \n Ischemic heart disease \n Solid organ/bone marrow transplant \n Active malignancies \n Hemolytic diseases and other haemoglobinopathies \n Peptic ulcer disease \n Patients on steroid or NSAID treatment \n Patients on anticoagulants \n \nPatients with adverse social circumstances \n Age <1 year or >65 years \n Living alone or has poor access to healthcare facilities \n Lack of transportation \n Unstable housing \n Extreme poverty \nAll patients should be assessed in a stepwise manner to reach at the diagnosis, determine the severity \nand place of management. \nAt the end of evaluation, attending physician should be able to assess the patient on following \npoints. \n Could this patient have dengue? \n Are there any warning sign? \n Is the patient having plasma leakage? \n Is the patient in shock? \n What is the haemodynamic and hydration status of the patient? \n Are there any co-morbidities or high-risk conditions or adverse social condition? \n Is hospitalization required immediately/early? ",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "review_status": "AI_SOURCE_CHECKED_REQUIRES_HUMAN_REVIEW"
+      },
+      "score": 0.07570065556911175
+    }
+  ],
+  "raw_model_output": "```json\n{\n  \"probable_diagnosis\": [\n    {\n      \"card_id\": \"CHOL-DX-01\",\n      \"reason\": \"The patient presents with acute watery diarrhoea during a declared cholera outbreak, meeting the suspected-case definition.\",\n      \"status\": \"suspected\"\n    }\n  ],\n  \"investigations\": [\n    {\n      \"card_id\": \"CHOL-INV-01\",\n      \"reason\": \"Assess hydration status using mental status, pulse, respiratory distress, ability to drink, sunken eyes, and skin pinch.\"\n    }\n  ],\n  \"medication_planning\": [\n    {\n      \"card_id\": \"CHOL-MED-ABX\",\n      \"reason\": \"The patient is pregnant, which is an independent indicator for cholera antibiotic eligibility regardless of hydration status.\"\n    },\n    {\n      \"card_id\": \"CHOL-MED-ABX-ADULT\",\n      \"reason\": \"Provides adult antibiotic options (single-dose doxycycline or azithromycin) for an eligible pregnant adult cholera patient.\"\n    }\n  ],\n  \"advice\": [\n    {\n      \"card_id\": \"CHOL-ADV-01\",\n      \"reason\": \"Provide discharge assessment guidance, ORS packets, and prevention/treatment-seeking education for cholera.\"\n    }\n  ],\n  \"clarifications\": [\n    \"What is the patient's exact gestational age and medical history regarding antibiotic suitability and allergies?\"\n  ],\n  \"limitations\": [\n    \"Antibiotic route is not explicitly stated in the source text and must be verified by a clinician.\",\n    \"Hydration class is currently listed as none, but pregnancy status mandates antibiotic consideration regardless.\"\n  ]\n}\n```",
+  "model": {
+    "requested_model": "gemini-3.5-flash-lite",
+    "returned_model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "usage": {
+      "completion_tokens": 388,
+      "prompt_tokens": 33841,
+      "total_tokens": 34229
+    },
+    "model_seconds": 3.3884453999926336,
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "attempts": 1,
+    "retry_history": [],
+    "retry_policy": "Up to 3 attempts; retry HTTP 502/503/504 and timeouts; 90-second network timeout per attempt. Same request/model on every attempt.",
+    "usage_note": "Usage is the successful response only. Provider processing/billing for failed attempts is unknown."
+  },
+  "cards_sha256": "ff546b6f2eca12979f44c5f84943b8a700419384b7e96839a430404274bf53aa",
+  "prompt_sha256": "fe6da9474b6a25f25a61997485fbad3129e72edc08c41a57d6ea8147f633a645",
+  "top_k": 16,
+  "rendered": {
+    "probable_diagnosis": [
+      {
+        "card_id": "CHOL-DX-01",
+        "disease": "cholera",
+        "model_reason": "The patient presents with acute watery diarrhoea during a declared cholera outbreak, meeting the suspected-case definition.",
+        "diagnostic_status": "suspected",
+        "recommendation": {
+          "text": "In a declared cholera outbreak, any person with acute watery diarrhoea meets the suspected-case definition. Outside an outbreak, the definition requires age ≥2 years with acute watery diarrhoea and severe dehydration, or death from acute watery diarrhoea. Do not report cholera as laboratory-confirmed from symptoms alone.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "applicability": {
+          "status": "applicable",
+          "missing_fields": []
+        }
+      }
+    ],
+    "investigations": [
+      {
+        "card_id": "CHOL-INV-01",
+        "disease": "cholera",
+        "model_reason": "Assess hydration status using mental status, pulse, respiratory distress, ability to drink, sunken eyes, and skin pinch.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Assess hydration using mental status, pulse, respiratory distress, ability to drink, sunken eyes and skin pinch. Severe dehydration is one or more danger signs OR at least two severe signs. Some dehydration requires no danger signs AND at least two listed some-dehydration signs; assess severe criteria first. Do not classify incomplete findings as normal. Pages 5–14 do not supply a routine confirmatory laboratory-testing algorithm.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_6",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 6,
+            "evidence_passage": "Evaluating dehydration and admission criteria \nSigns Treatment Admit\nSevere\ndehydration \nOne or more danger signs: \n• Lethargic or unconscious \n• Absent or weak pulse \n• Respiratory distress\nOR at least 2 of the following: \n• Sunken eyes \n• Not able to drink or drinks poorly \n• Skin pinch goes back very slowly \nPlan C Yes\nSome\ndehydration \nNo danger signs AND at least 2 of the following: \n• Irritable or restless \n• Sunken eyes \n• Rapid pulse \n• Thirsty (drinks eagerly) \n• Skin pinch goes back slowly \nPlan B Yes\nNo \ndehydration \n• Awake and alert \n• Normal pulse \n• Normal thirst \n• Eyes not sunken \n• Skin pinch normal \nPlan A No\nClinical tools for cholera treatment facilities\nv1.0\nEvaluating dehydration and admission criteria \nSigns Treatment Admit \nSevere One or more danger signs: PlancC Yes \ndehydration ¢ Lethargic or unconscious \n« Absent or weak pulse \n¢ Respiratory distress \nOR at least 2 of the following: \n« Sunken eyes \n¢ Not able to drink or drinks poorly \n¢ Skin pinch goes back very slowly \nSome No danger signs AND at least 2 of the following: PlanB Yes \n2 ¢ Irritable or restless \ndehydration Sunken eyes \n«Rapid pulse \n¢ Thirsty (drinks eagerly) \n¢ Skin pinch goes back slowly \nNo ¢ Awake and alert \n: «Normal pulse \ndehydration ¢ Normal thirst \n- Eyes not sunken \n¢ Skin pinch normal \nYAN @) World Health WY b “vv Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "applicability": {
+          "status": "applicable",
+          "missing_fields": []
+        }
+      }
+    ],
+    "medication_planning": [
+      {
+        "card_id": "CHOL-MED-ABX",
+        "disease": "cholera",
+        "model_reason": "The patient is pregnant, which is an independent indicator for cholera antibiotic eligibility regardless of hydration status.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Cholera antibiotic eligibility includes severe dehydration OR pregnancy OR elderly status. Pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan. A hydration-only rule is incorrect. This is an indication for clinician medication planning, not an automatic prescription.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "applicability": {
+          "status": "applicable",
+          "missing_fields": []
+        }
+      },
+      {
+        "card_id": "CHOL-MED-ABX-ADULT",
+        "disease": "cholera",
+        "model_reason": "Provides adult antibiotic options (single-dose doxycycline or azithromycin) for an eligible pregnant adult cholera patient.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "For an eligible adult cholera patient, the source lists preferred doxycycline 300 mg as a single dose, or alternative azithromycin 1 g as a single dose. These are alternatives, not a combination. The source passage does not specify route; leave it unknown. Clinician review of allergies and patient-specific suitability is required.",
+          "medication": {
+            "options": [
+              {
+                "name": "Doxycycline",
+                "dose": "300 mg",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Preferred option in this source; clinician review."
+              },
+              {
+                "name": "Azithromycin",
+                "dose": "1 g",
+                "route": null,
+                "frequency": "Single dose",
+                "duration": "Single dose",
+                "instructions": "Alternative, not add-on."
+              }
+            ],
+            "combination": false
+          }
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_9",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 9,
+            "evidence_passage": "Treatment for\nSome dehydration Plan B (ORS)\nAge Weight (kg) ORS in 4 hours\n< 4 months < 5 kg 200–400 mL\n4 –11 months 5 –8 kg 400–600 mL\n12 –23 months 8 –12 kg 600–800 mL\n2 –4 years 12 –16 kg 800–1200 mL\n4 –14 years 16 –30 kg 1200–2200 mL\n15 + years 30+ kg 2200–4000 mL\n1 Give ORS\nover 4 hours\n2 Reassess\nat least every hour\n3 Give additional \nORS\nto replace ongoing \nlosses in addition to \nfluids in the table\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nSome dehydration Plan B (ORS) \n1 Give ORS \nover 4 hours Age Weight (kg) ORSin4 hours \n2 Reassess <4 months <5kg 200-400 mL \nat least every hour 4-11 months 5-8keg 400-600 mL \n3Giveadditional 12-23 months 8-12k¢g 600-800 mL \nORS 2-4 years 12 - 16 kg 800-1200 mL \nto replace ON gOIne 4-14 years 16 - 30 kg 1200-2200 mL \nfluideinthe table 15 + years 30+kg 2200-4000 mL \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once per day receive antibiotics regardless of their hydration \nAX~. World Health status or treatment plan \\) ) Ya gy wes \nYY = WA Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_11",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 11,
+            "evidence_passage": "Age ORS after each \nloose stool\nGive enough ORS \npackets for\n< 24 months 50 –100 mL 500 mL / day\n2 –9 years 100 –200 mL 1 L / day\n10 years + As much as wanted 2 L / day\nZinc - give for 10 days\nIn patients under 6 months, 10mg once per day\nIn patients over 6 months, 20mg once per day\nTreatment for\nNo sign of dehydration: Plan A (ORS)\nAntibiotics\nAll pregnant women and elderly patients should \nreceive antibiotics regardless of their hydration \nstatus or treatment plan\nClinical tools for cholera treatment facilities\nv1.0\nTreatment for \nNo sign of dehydration: PlanA (O RS) \nAve ORS aftereach | Give enough ORS \n5 loose stool packets for \n< 24 months 50 - 100 mL 500 mL / day \n2-9 years 100 - 200 mL 1L/day \n10 years + As much as wanted 2L/ day \nZinc - give for 10 days Antibiotics \nIn patients under 6 months, 10mg once perday All pregnant women and elderly patients should \nIn patients over 6 months, 20mg once perday __ receive antibiotics regardless of their hydration \n@y World Health status or treatment plan \nb \nV Ni WSF y Organization Clinical tools for cholera treatment facilities \nv1.0",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "applicability": {
+          "status": "applicable",
+          "missing_fields": []
+        }
+      }
+    ],
+    "advice": [
+      {
+        "card_id": "CHOL-ADV-01",
+        "disease": "cholera",
+        "model_reason": "Provide discharge assessment guidance, ORS packets, and prevention/treatment-seeking education for cholera.",
+        "diagnostic_status": null,
+        "recommendation": {
+          "text": "Before discharge, reassess: no dehydration, takes ORS without vomiting, no watery stool for four hours, walks without assistance and passes urine. Provide at least four ORS packets for home use and explain prevention and seeking treatment for at least three diarrhoea episodes in 24 hours. Do not declare discharge eligibility unless the required findings are known.",
+          "medication": null
+        },
+        "sources": [
+          {
+            "source_id": "cholera_pdf_5",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 5,
+            "evidence_passage": "Flow Chart for Cholera Case Management\nReference (scan QR code)\n1) Global Task Force for Cholera Control (GTFCC)\nCholera patient treatment flowchart\nCase definition suspected cholera:  Outside of cholera outbreak: any patient ≥2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea.\nYes\nYes\nYes\nNo Manage outside of \ncholera pathway\nSTART: Does the patient fit the case definition?Assess for shock / severe dehydration\nPatient has one or more danger sign(s):\n• Lethargic or unconscious\n• Absent or weak pulse\n• Respiratory distress\nOR patient has at least 2 of the following:\n• Not able to drink or drinks poorly\n• Skin pinch goes back very slowly\n• Sunken eyes\nAssess for some dehydration\nPatient has at least 2 of the following:\n• Irritable or restless\n• Sunken eyes\n• Rapid pulse\n• Thirsty (drinks eagerly)\n• Skin pinch goes back slowly\nGive oral rehydration solution (ORS)\nover 4 hours according to age:\nPLAN A\nAge ORS (mL)\n< 24 months 50–100\n2–9 years 100–200\n10 years + As much as wanted\nReassess and consider discharge if\n• Has no signs of dehydration AND\n• Takes ORS without vomiting AND\n• Has no watery stools for 4 hours AND\n• Is able to walk without assistance AND\n• Is passing urine\nGive intravenous Ringer’s lactate…\nBe alert for hypoglycaemia, and treat rapidly \nwith intravenous dextrose\nPLAN C\nAge Ringer’s lactate (mL)\nunder 1 \nyear\n30 mL / kg in 60 minutes, then\n70 mL / kg over the next 5 hours\n1 year + 30 mL / kg in 30 minutes, then\n70 mL / kg over the next 2½ hours\nReassess every 15–30 minutes\n• Awake and alert AND\n• Able to drink AND\n• Improved pulse strength\nGive oral rehydration solution (ORS)\nover 4 hours, 75 mL/kg: \nPLAN B\nAge Weight (kg) ORS (mL)\n< 4 months under 5 kg 200–400\n4–11 months 5–7.9 kg 400–600\n12–23 months 8–10.9 kg 600–800\n2–4 years 11–15.9 kg 800–1200\n5–14 years 16–29.9 kg 1200–2200\n15 years + 30 kg + 2200–4000\nReassess at least every hour\nAwake and alert\nAND\nAble to drink\nAND\nImproved pulse \nstrength\nSevere \ndehydration\nOR\nSevere vomiting\nYes\nNo\nNo\nSome dehydration Severe dehydration or shock No dehydration\nAntibiotics for all patients with severe dehydration, pregnant women and the elderly:\n• Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults.\n• Alternative is azithromycin single dose (20 mg / kg for under 12 years, or 1 g for older children and adults.\nNo hydration found\n• Awake and alert\n• Normal pulse\n• Normal thirst\n• Eyes not sunken\n• Skin pinch normal\nClinical tools for cholera treatment facilities v1.0 \nCholera patient treatment flowchart Case definition suspected cholera: Outside of cholera outbreak: any patient =2 years presenting with acute watery diarrhoea and severe dehydration or dying from \nacute watery diarrhoea. Where a cholera outbreak is declared: any person presenting with or dying from acute watery diarrhoea. \n(“Assess for shock / severe dehydration +») START: Does the patient fit the case definition? Manage outside of \nPatient has one or more danger sign(s): y - ~ eielara 2allmey y \n* — Lethargic or unconscious Assess for some dehydration Va . ~ \n. k pul . . No hydration found Absent or weak pulse Patient has at least 2 of the following: \n* Respiratory distress * Irritable or restless * Awake and alert \nOR patient has at least 2 of the following: * Sunken eyes * Normal pulse \n* Notable to drink or drinks poorly * Rapid pulse * Normal thirst \n* Skin pinch goes back very slowly * Thirsty (drinks eagerly) ° Eyes not sunken \n* Sunken eyes * Skin pinch goes back slowly * Skin pinch normal \nNe y, N : ) L y, \n[ Severe dehydration or shock ] [ Some dehydration ] [ No dehydration ] \n(— ) (— PLAN B ) PLAN A \nGive intravenous Ringer’s lactate... Give oral rehydration solution (ORS) Give oral rehydration solution (ORS) \nAge Ringer’s lactate (mL) over 4 hours, 75 mL/kg: over 4 hours according to age: \nunder1 30 mL/kg in 60 minutes, then Age Weight (kg) ORS (mL) ——> Age ORS (mL) \nyear 70mL/kg over the next 5 hours <4 months under 5 kg 200-400 < 24 months 50-100 \n1 year+ 30 mL/kg in 30 minutes, then : 4-11 months 5-7.9 kg 400-600 2-9 years 100-200 \n70 mL/kg over the next 2% hours 12~23 months 8-10.9 kg 600-800 10 years + As much as wanted \nBe alert for hypoglycaemia, and treat rapidly 2-4 years 11-15.9kg 800-1200 R \nwith intravenous dextrose Yes Py, 4G OG ROOT v A years 29.9 kg — \n15 years + 30 kg + 2200-4000 ( Reassess and consider discharge if \nReassess every 15-30 minutes X a4 * Hasno signs of dehydration AWD \nvery to- mu v A * Takes ORS without vomiting AND \n* Awake and alert AND ( Reassess at least every hour +) Yes * Has no watery stools for 4 hours AND * Ableto drink AND Awake and alert * Isable to walk without assistance AWD \n* Improved pulse strength AND * Is passing urine \nN y, \nSevere Able to drink \ndehydration AND \nYes = OR Severe vomiting improved pulse Reference (scan QR code) \nLL streng J 1) Global Task Force for Cholera Control (GTFCC) \nAntibiotics for all patients with severe dehydration, pregnant women and the elderly: Ue \n¢ Preferred is doxycycline single dose (200 mg for under 12 years, or 300 mg for older children and adults. _ _ G \n* Alternative is azithromycin single dose (20 mg /kg for under 12 years, or 1 g for older children and adults. Clinical tools for cholera treatment facilities v1.0 = SSSA \n2) World Health ¥% Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          },
+          {
+            "source_id": "cholera_pdf_14",
+            "title": "Clinical tools for cholera treatment facilities",
+            "version": "WHO, 2024; v1.0",
+            "pdf_page": 14,
+            "evidence_passage": "Discharge assessment \n❑ Ensure patients and their caregivers understand \nthat anyone with at least 3 episodes of diarrhoea\nin 24 hours should seek treatment.\n❑ Ensure all patients and their caregivers \nunderstand how to prevent cholera before \ndischarge.\n❑ Provide at least 4 packets of ORS for all patients \nwho are discharged to use at home.  \nThe packets can also be used for any family members or neighbours\nhow begin to have diarrhoea.\n❑ For paediatric patients give sufficient zinc to \ncomplete 10 days treatment.\nClinical tools for cholera treatment facilities\nv1.0\nDischarge assessment \nLL] Ensure patients and their caregivers understand \nthat anyone with at least 3 episodes of diarrhoea \nin 24 hours should seek treatment. \nLL] Ensure all patients and their caregivers \nunderstand how to prevent cholera before \ndischarge. \n_] Provide at least 4 packets of ORS for all patients \nwho are discharged to use at home. \nThe packets can also be used for any family members or neighbours \nhow begin to have diarrhoea. \n_] For paediatric patients give sufficient zinc to \ncomplete 10 days treatment. \n@Y World Health YX Organization",
+            "passage_scope": "Full extracted page for auditable source context; see recommendation and source page; tables may need image review."
+          }
+        ],
+        "applicability": {
+          "status": "applicable",
+          "missing_fields": []
+        }
+      }
+    ]
+  },
+  "blocked_or_conditional": [],
+  "errors": [],
+  "clarifications": [
+    "What is the patient's exact gestational age and medical history regarding antibiotic suitability and allergies?"
+  ],
+  "limitations": [
+    "Antibiotic route is not explicitly stated in the source text and must be verified by a clinician.",
+    "Hydration class is currently listed as none, but pregnancy status mandates antibiotic consideration regardless."
+  ],
+  "elapsed_seconds": 3.493535300018266
+}
