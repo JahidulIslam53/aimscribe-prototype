@@ -1,0 +1,23 @@
+{
+  "canonical_card_count": 32,
+  "fictional_case_count": 6,
+  "assigned_positions_requested": 45,
+  "assigned_positions_available": 43,
+  "missing_positions": {
+    "chikungunya": [
+      26,
+      27
+    ]
+  },
+  "source_evidence_records_checked": 69,
+  "exact_extracted_page_match": true,
+  "syntax_check": "PASS: all five Python files",
+  "unit_tests_exit_code": 0,
+  "unit_test_output": "test_abx_exception (test_engine.TestEngine.test_abx_exception) ... ok\ntest_all_false_wins_unknown (test_engine.TestEngine.test_all_false_wins_unknown) ... ok\ntest_any_true_wins_unknown (test_engine.TestEngine.test_any_true_wins_unknown) ... ok\ntest_card_ids_unique (test_engine.TestEngine.test_card_ids_unique) ... ok\ntest_coverage (test_engine.TestEngine.test_coverage) ... ok\ntest_evidence_not_empty (test_engine.TestEngine.test_evidence_not_empty) ... ok\ntest_invalid_types (test_engine.TestEngine.test_invalid_types) ... ok\ntest_mocked_model_pipeline_is_not_clinical_evaluation (test_engine.TestEngine.test_mocked_model_pipeline_is_not_clinical_evaluation) ... ok\ntest_no_fabricated_chik_pages (test_engine.TestEngine.test_no_fabricated_chik_pages) ... ok\ntest_six_cases_and_one_change (test_engine.TestEngine.test_six_cases_and_one_change) ... ok\ntest_unknown_not_false (test_engine.TestEngine.test_unknown_not_false) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.059s\n\nOK\n",
+  "model_integration": "NOT_RUN; no configured service",
+  "clinical_comparison": "NOT_RUN; no 12 real outputs",
+  "human_clinical_review": "NOT_CLAIMED",
+  "hypertension_full_pdf64_algorithm": "NOT_IMPLEMENTED; embedded image retained",
+  "paper_final_version_verification": "PENDING; summary attributed to accessible preprint",
+  "paper_summary_word_count": 259
+}
