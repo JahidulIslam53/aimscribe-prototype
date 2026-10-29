@@ -1,0 +1,13 @@
+# Question 4 — 200–300-word draft; final-paper verification pending
+
+Saab and colleagues investigate whether a conversational diagnostic AI can integrate medical images and documents while preserving competent history-taking and management reasoning. Their multimodal Articulate Medical Intelligence Explorer (AMIE) builds on Gemini 2.0 Flash and maintains an evolving patient profile, diagnostic hypotheses and information gaps. A state-aware framework moves through history-taking, diagnosis and management, and follow-up, requesting relevant artifacts rather than treating each image as an isolated question.
+
+The authors combine automated dialogue simulation with an expert, randomized, blinded, OSCE-style comparison against primary care physicians. The accessible preprint describes 105 scenarios involving skin photographs, ECG tracings and clinical documents, 25 patient actors and evaluation by 18 specialists. It reports superior AMIE performance on seven of nine multimodal evaluation axes and 29 of 32 non-multimodal axes. These are counts of evaluation dimensions, not percentages of patients correctly diagnosed. The preprint abstract is the location for these counts; its Figure 2 explains the state-aware mechanism. Final-article figure numbering and numerical correspondence require verification.
+
+A major transfer limitation is that simulated chat encounters do not establish effectiveness in Bangladesh GP clinics. Bengali and code-switched language, local disease prevalence, national prescribing protocols, investigation availability and clinician workflow require separate assessment. This is a contextual transfer concern, not a reported Bangladesh trial result.
+
+I would adopt explicit patient-state and missing-information tracking because recommendations should change when new evidence arrives. I would not adopt autonomous prescribing or treat an AI judge as final clinical validation. My prototype therefore uses traceable protocol cards, explicit applicability checks and clinician review, while reserving multimodal perception for future work.
+
+Sources: https://ar5iv.labs.arxiv.org/html/2505.04653 ; https://research.google/blog/amie-gains-vision-a-research-ai-agent-for-multi-modal-diagnostic-dialogue/ ; assigned final article https://www.nature.com/articles/s41591-026-04371-0 .
+
+The final Nature Medicine landing page was located but could not be fetched. The summary explicitly attributes details to the accessible preprint. Do not present it as a fully verified final-paper summary; obtain the final PDF and replace the reference with a verified final-paper result/figure/table/page.
