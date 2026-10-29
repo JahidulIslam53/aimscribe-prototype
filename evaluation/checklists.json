@@ -1,0 +1,101 @@
+[
+  {
+    "case_id": "C1_dengue",
+    "key_behaviour": "Suspected dengue with an early-illness investigation plan: CBC/Hct and NS1; show warning-sign advice and dengue paracetamol maximum ≤3 g/day, not an invented per-dose schedule.",
+    "conditions": "Illness day 3, adult, no recorded warning signs; home management still requires clinical assessment.",
+    "avoid": "Do not label symptoms as confirmed dengue, recommend NSAIDs or use the chikungunya 4 g/day maximum.",
+    "source_pages": {
+      "dengue": [
+        27,
+        28,
+        38,
+        39,
+        41,
+        45,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "case_id": "C2_hypertension",
+    "key_behaviour": "Recognize clinician-confirmed hypertension supported by repeated readings; recommend renal/electrolyte assessment, urine dipstick, ECG and medication review; monthly follow-up after medication initiation/change.",
+    "conditions": "Adult; repeated visits, no pregnancy; unverified image-only algorithm dose remains missing.",
+    "avoid": "Do not invent a page-64 dose/escalation sequence or delay indicated treatment until every test is completed.",
+    "source_pages": {
+      "hypertension": [
+        46,
+        51,
+        64,
+        65
+      ]
+    }
+  },
+  {
+    "case_id": "C3_cholera",
+    "key_behaviour": "Suspected cholera in a declared outbreak and documented no dehydration. Select adult Plan A ORS after each loose stool, as much as wanted; packet supply for 2 L/day is not a ceiling.",
+    "conditions": "Adult; explicitly normal hydration assessment, safe drinking, pregnant false, elderly false.",
+    "avoid": "Do not routinely select the conditional cholera antibiotic card when all eligibility branches are false; do not invent a confirmatory stool test from these excerpts.",
+    "source_pages": {
+      "cholera": [
+        5,
+        6,
+        11,
+        14
+      ]
+    }
+  },
+  {
+    "case_id": "C4_chikungunya",
+    "key_behaviour": "Consider chikungunya with dengue differential; day-4 PCR timing can be discussed; avoid aspirin/NSAIDs and apply dengue-safe management while dengue is not excluded.",
+    "conditions": "Adult; acute illness, dengue_excluded false.",
+    "avoid": "Do not use the isolated chikungunya paracetamol maximum as a safe dengue regimen or treat steroids/NSAIDs as acute routine therapy.",
+    "source_pages": {
+      "chikungunya": [
+        11,
+        17,
+        18,
+        19,
+        20,
+        22
+      ],
+      "dengue": [
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "case_id": "C5_incomplete",
+    "key_behaviour": "Keep dengue/chikungunya differential open, ask age, illness day, warning signs, pregnancy, medications and allergies; do not guess a specific medication dose or diagnostic-test window.",
+    "conditions": "Essential patient facts unknown, not false.",
+    "avoid": "Do not assume adult/nonpregnant/no allergies/normal vital signs or call the diagnosis confirmed.",
+    "source_pages": {
+      "dengue": [
+        37,
+        39,
+        45,
+        46
+      ],
+      "chikungunya": [
+        11,
+        18,
+        20
+      ]
+    }
+  },
+  {
+    "case_id": "C6_cholera_pregnant",
+    "key_behaviour": "Retain the same hydration-based Plan A recommendation as C3, but add clinician antibiotic planning because pregnancy qualifies irrespective of hydration. Source-listed adult alternatives can be shown without inventing route.",
+    "conditions": "Only pregnant changes from false to true; all other patient input is identical to C3.",
+    "avoid": "Do not withhold antibiotics merely because dehydration is absent, automatically switch to IV Plan C, combine the alternative antibiotics or invent a route.",
+    "source_pages": {
+      "cholera": [
+        5,
+        6,
+        9,
+        11
+      ]
+    }
+  }
+]
